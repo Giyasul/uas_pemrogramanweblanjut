@@ -9,143 +9,124 @@
 </head>
 <style>
 body {
-    background-color: #f2f2f2; 
+    background-color: #f2f2f2;
     font-family: Arial, sans-serif;
     color: #333;
+}
+
+/* NAV */
+.nav-opini {
+    background: linear-gradient(to right, #00487b, #0076ca);
 }
 .nav-opini .nav-link {
     color: #fff;
     padding: 10px 14px;
 }
 .nav-opini .nav-link:hover {
-    color: #ffcc00; 
+    color: #ffcc00;
 }
 
-.nav-opini {
-    background: linear-gradient(
-        to right,
-        #00487b,
-        #0076ca
-    );
-}
+/* LOGO */
 .logo-opini {
-  height: 200px;
-  width: auto;
+    height: 200px;
+    width: auto;
 }
 
+/* TOP BAR */
 .home-gradient {
-  font-weight: 700;
-  text-decoration: none;
-
-  background: linear-gradient(
-    90deg,
-    #3e079e,
-    #fd0d35
-  );
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    text-decoration: none;
+    background: linear-gradient(90deg, #3e079e, #fd0d35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
 .home-gradient:hover {
-  opacity: .85;
+    opacity: .85;
 }
-
 .topbar-separator {
-  width: 1px;
-  height: 30px;
-  background: #ddd;
-  margin: 0 15px;
+    width: 1px;
+    height: 30px;
+    background: #ddd;
+    margin: 0 15px;
 }
 
+/* HASHTAG */
 .hashtag-link {
-  color: #000;              
-  text-decoration: none;
-  font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
 }
-
 .hashtag-link:hover,
 .hashtag-link:focus {
-  color: #032b68;          
- 
+    color: #032b68;
 }
 
-.footer-opini {
-  background: #f2f2f2;
-}
-
-.footer-link li {
-  margin-bottom: 6px;
-}
-
-.footer-link a {
-  color: #505050;
-  text-decoration: none;
-  font-size: 15px;
-}
-
-.footer-link a:hover {
-  color: #043277;
-}
-
-.footer-title {
-  color: #000;     
-  font-weight: 700;
-}
-
-.social-icon {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.social-icon.fb { background: #1877f2; }
-.social-icon.ig { background: #e1306c; }
-.social-icon.pin { background: #bd081c; }
-.social-icon.tw { background: #1da1f2; }
-.social-icon.yt { background: #ff0000; }
-
+/* FOOTER */
 .footer-bottom {
-  background: #f2f2f2;
-  border-top: 1px solid #ddd;
+    border-top: 1px solid #cfcfcf;
+    box-shadow: 0 -1px 0 rgba(0,0,0,0.05);
+    background: #f2f2f2;
+}
+.footer-title {
+    color: #464646;
+    font-weight: 600;
+}
+.footer-judul {
+    color: #000000;
+    font-weight: 700;
+}
+.footer-link li {
+    margin-bottom: 6px;
+}
+.footer-link a {
+    color: #505050;
+    text-decoration: none;
+    font-size: 15px;
+}
+.footer-link a:hover {
+    color: #043277;
 }
 
+/* SOCIAL ICON */
+.social a img {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #fff;
+    padding: 6px;
+    transition: 0.3s;
+}
+.social a img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+/* SCROLL TOP */
 .footer-topline {
-  position: relative;
-  height: 4px;
-  background: #032c6b; 
-  margin-top: 60px;
+    position: relative;
+    height: 4px;
+    background: #032c6b;
+    margin-top: 60px;
 }
-
 .scroll-top-btn {
-  position: absolute;
-  top: -18px;
-  left: 50%;
-  transform: translateX(-50%);
-  
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: none;
-
-  background: #032c6b;
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-
-  cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0,0,0,.2);
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    background: #032c6b;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
 }
-
 .scroll-top-btn:hover {
-  background: #084298;
+    background: #084298;
 }
 </style>
 
@@ -238,27 +219,34 @@ body {
         ^
     </button>
 </div>
-
-<footer class="footer-opini mt-5">
+<footer>
     <div class="container py-5">
         <div class="row">
             <!-- KOLOM LOGO -->
             <div class="col-md-4 mb-4">
                 <img src="{{ asset('images/opini.png') }}" alt="Opini.co" height="100">
-                <p class="mt-3 footer-title">Connect With Us</p>
-
-                <div class="d-flex gap-2">
-                    <a href="#" class="social-icon fb">F</a>
-                    <a href="#" class="social-icon ig">I</a>
-                    <a href="#" class="social-icon pin">P</a>
-                    <a href="#" class="social-icon tw">T</a>
-                    <a href="#" class="social-icon yt">Y</a>
-                </div>
+            <p class="mt-3 footer-title">Connect With Us</p>
+    <div class="d-flex gap-2 social">
+        <a href="#">
+            <img src="{{ asset('images/facebook.png') }}" alt="Facebook">
+         </a>
+        <a href="#">
+            <img src="{{ asset('images/instagram.png') }}" alt="Instagram">
+        </a>
+        <a href="#">
+            <img src="{{ asset('images/pinterest.png') }}" alt="Pinterest">
+        </a>
+        <a href="#">
+            <img src="{{ asset('images/twitter.png') }}" alt="Twitter">
+        </a>
+        <a href="#">
+            <img src="{{ asset('images/youtube.png') }}" alt="YouTube">
+        </a>
+    </div>
             </div>
-
             <!-- KOLOM KATEGORI -->
             <div class="col-md-4 mb-4">
-                <h5 class="footer-title mb-3">Kategori</h5>
+                <h5 class="footer-judul mb-3">Kategori</h5>
                 <ul class="list-unstyled footer-link fw-semibold">
                     <li><a href="#">Berita Lokal</a></li>
                     <li><a href="#">Berita Nasional</a></li>
@@ -268,10 +256,9 @@ body {
                     <li><a href="#">Olahraga</a></li>
                 </ul>
             </div>
-
             <!-- KOLOM LAYANAN -->
             <div class="col-md-4 mb-4">
-                <h5 class="footer-title mb-3">Layanan</h5>
+                <h5 class="footer-judul mb-3">Layanan</h5>
                 <ul class="list-unstyled footer-link fw-semibold">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
@@ -282,7 +269,6 @@ body {
                     <li><a href="#">Disclaimer</a></li>
                 </ul>
             </div>
-
         </div>
     </div>
     <!-- COPYRIGHT -->
