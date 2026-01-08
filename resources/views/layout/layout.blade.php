@@ -169,7 +169,7 @@ body {
                 <a class="nav-link" href="#">Berita Lokal</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Berita Nasional</a>
+                <a class="nav-link" href="\nasional">Berita Nasional</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">E-Koran</a>
