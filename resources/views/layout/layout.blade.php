@@ -107,7 +107,6 @@ body {
     position: relative;
     height: 4px;
     background: #032c6b;
-    margin-top: 60px;
 }
 .scroll-top-btn {
     position: absolute;
@@ -220,7 +219,7 @@ body {
     </button>
 </div>
 <footer>
-    <div class="container py-5">
+    <div class="container py-4">
         <div class="row">
             <!-- KOLOM LOGO -->
             <div class="col-md-4 mb-4">
@@ -260,13 +259,13 @@ body {
             <div class="col-md-4 mb-4">
                 <h5 class="footer-judul mb-3">Layanan</h5>
                 <ul class="list-unstyled footer-link fw-semibold">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Redaksi</a></li>
-                    <li><a href="#">Kirim Artikel</a></li>
-                    <li><a href="#">Pedoman Media Siber</a></li>
-                    <li><a href="#">Kode Etik</a></li>
-                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="{{ url('/about') }}">About</a></li>
+                    <li><a href="{{ url('/contact') }}">Contact</a></li>
+                    <li><a href="{{ url('/redaksi') }}">Redaksi</a></li>
+                    <li><a href="{{ url('/kirim') }}">Kirim Artikel</a></li>
+                    <li><a href="{{ url('/pedoman') }}">Pedoman Media Siber</a></li>
+                    <li><a href="{{ url('/kode') }}">Kode Etik</a></li>
+                    <li><a href="{{ url('/disclaimer') }}">Disclaimer</a></li>
                 </ul>
             </div>
         </div>
