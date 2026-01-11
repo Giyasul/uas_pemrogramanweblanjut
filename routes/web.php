@@ -1,7 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use 
+app\Http\Controllers\BeritaController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/berita'),
+[BeritaController::class,'berita']);
+Route::get('/berita/{id}'
+[BeritaController::class,'show']);
