@@ -11,44 +11,6 @@ class BeritaSeeder extends Seeder
     {
         $beritas = [
             [
-                'kategori_id' => 6,
-                'judul' => 'Klub Sepakbola dengan Basis Penggemar Terbesar di Dunia' ,
-                'isi' => 'FC Barcelona kembali menjadi sorotan dunia sepak bola setelah menunjukkan performa yang semakin konsisten di kompetisi domestik maupun Eropa. Klub asal Catalunya tersebut perlahan bangkit dari masa transisi dengan mengandalkan kombinasi pemain muda berbakat dan pengalaman para pemain senior. Dukungan penuh dari para pendukung setia di Camp Nou juga menjadi faktor penting dalam menjaga semangat tim.  
-Di bawah arahan pelatih saat ini, Barcelona menampilkan gaya permainan khas tiki-taka yang kembali hidup, meskipun dengan pendekatan yang lebih modern dan fleksibel. Penguasaan bola, pergerakan tanpa bola, serta tekanan tinggi menjadi ciri utama permainan Blaugrana. Hal ini terlihat dari sejumlah pertandingan penting yang berhasil dimenangkan dengan dominasi permainan.
-Sejumlah pemain muda seperti hasil akademi La Masia tampil menonjol dan menjadi tulang punggung tim. Kehadiran mereka tidak hanya memberikan energi baru, tetapi juga menjaga identitas klub yang selama ini dikenal sebagai pencetak pemain kelas dunia. Manajemen klub pun terus berupaya memberi ruang bagi talenta muda untuk berkembang di level tertinggi.
-Meski demikian, Barcelona masih menghadapi tantangan, terutama dari sisi finansial dan konsistensi performa. Persaingan ketat di La Liga dengan klub-klub besar lainnya menuntut Barcelona untuk terus berbenah dan menjaga stabilitas tim sepanjang musim. Setiap laga menjadi ujian penting dalam upaya kembali meraih gelar juara.
-Ke depan, Barcelona menargetkan prestasi yang lebih tinggi dengan tetap berpegang pada filosofi permainan menyerang dan pengembangan pemain muda. Dengan fondasi yang mulai kuat dan dukungan penuh dari seluruh elemen klub, Barcelona optimistis dapat kembali menjadi kekuatan dominan di sepak bola Eropa dan dunia.',
-                'gambar' => 'image/kolom opini 1.jpeg',
-                'tanggal' => now(),
-            ],
-             [
-                'kategori_id' => 6,
-                'judul' => 'Para Artis Muda yang Membawa Angin Segar bagi dunia Sepak Bola' ,
-                'isi' => 'Para artis muda sepak bola terus bermunculan dan menjadi sorotan utama dalam beberapa musim terakhir. Kehadiran mereka tidak hanya menghadirkan permainan yang atraktif, tetapi juga memberi harapan baru bagi klub dan tim nasional masing-masing. Dengan usia yang relatif muda, para pemain ini sudah menunjukkan kematangan bermain yang luar biasa di level tertinggi.
-Kecepatan, kreativitas, dan keberanian menjadi ciri khas yang melekat pada generasi pemain muda saat ini. Mereka tampil tanpa rasa takut menghadapi lawan berpengalaman, bahkan kerap menjadi penentu kemenangan dalam pertandingan penting. Gaya bermain modern yang mengandalkan teknik tinggi dan mobilitas membuat sepak bola semakin menarik untuk disaksikan.
-Beberapa nama berhasil mencuri perhatian publik berkat konsistensi dan kontribusi besar di klubnya. Gol-gol penting, assist cerdas, hingga kemampuan membaca permainan menjadikan mereka aset berharga. Tidak sedikit dari mereka yang dipercaya mengenakan ban kapten atau menjadi tumpuan utama meski usianya masih sangat muda.
-Dampak kehadiran artis muda juga terasa dalam perkembangan strategi permainan. Pelatih kini lebih berani memberikan menit bermain kepada pemain belia karena kualitas yang mereka miliki. Hal ini turut mendorong regenerasi yang sehat dalam sepak bola, sekaligus mematahkan anggapan bahwa pengalaman usia selalu menjadi faktor utama kesuksesan.
-Di luar lapangan, popularitas para pemain muda ini turut meningkatkan daya tarik sepak bola secara global. Media sosial menjadi sarana bagi mereka untuk terhubung langsung dengan penggemar, menciptakan kedekatan emosional yang kuat. Citra positif dan profesionalisme yang ditunjukkan turut menginspirasi generasi muda untuk menekuni dunia sepak bola.
-Dengan pembinaan yang tepat dan mental yang terjaga, para artis muda ini diyakini akan menjadi ikon sepak bola masa depan. Mereka bukan sekadar bintang sesaat, melainkan fondasi penting bagi perkembangan olahraga ini. Dunia sepak bola pun menatap masa depan dengan optimisme berkat hadirnya talenta-talenta muda yang membawa angin segar.
-',
-                'gambar' => 'image/kolom opini 2.jpeg',
-                'tanggal' => now()->subDay(1),
-            ],
-             [
-                'kategori_id' => 6,
-                'judul' => 'Pergi Menjelajah Keindahan Alam Indonesia Bersama Teman-Teman: Pesona Bukit Gedok Sembalun, NTB' ,
-                'isi' => 'Menjelajah keindahan alam Indonesia bersama teman-teman menjadi pengalaman berharga yang penuh kesan. Salah satu destinasi yang kini semakin menarik perhatian wisatawan adalah Bukit Gedok yang terletak di kawasan Sembalun, Lombok, Nusa Tenggara Barat. Keindahan alam yang masih asri menjadikan bukit ini pilihan tepat bagi pencinta petualangan dan ketenangan alam.
-Bukit Gedok menawarkan panorama alam yang memukau dengan hamparan perbukitan hijau serta latar megah Gunung Rinjani. Udara sejuk khas pegunungan menyambut setiap pengunjung yang datang, menciptakan suasana nyaman dan menenangkan. Pemandangan ini menjadi daya tarik utama bagi wisatawan lokal maupun luar daerah.
-Perjalanan menuju Bukit Gedok menjadi bagian dari pengalaman seru bersama teman-teman. Akses jalan yang menantang namun aman menambah sensasi petualangan, terutama bagi para pencinta alam dan fotografi. Setiap sudut perjalanan menyuguhkan pemandangan sawah, perkampungan warga, serta alam Sembalun yang memanjakan mata.
-Sesampainya di puncak Bukit Gedok, rasa lelah langsung terbayar lunas. Dari ketinggian, pengunjung dapat menikmati panorama alam yang luas dan menawan, terutama saat pagi dan sore hari. Momen matahari terbit dan terbenam menjadi waktu favorit untuk mengabadikan keindahan alam bersama sahabat.
-Kebersamaan dengan teman-teman semakin terasa hangat saat menikmati suasana alam yang tenang. Bukit Gedok menjadi tempat ideal untuk bersantai, berbincang, hingga menikmati bekal sederhana sambil ditemani angin sepoi-sepoi. Aktivitas ini mempererat kebersamaan sekaligus menjadi pelepas penat dari rutinitas harian.
-Selain keindahan alamnya, keramahan masyarakat sekitar juga menjadi nilai tambah. Warga Sembalun dikenal ramah dan terbuka terhadap wisatawan, sehingga perjalanan terasa lebih aman dan menyenangkan. Hal ini turut mendukung Bukit Gedok sebagai destinasi wisata alam yang berkelanjutan.
-Dengan segala pesonanya, Bukit Gedok Sembalun layak menjadi tujuan wisata bagi siapa saja yang ingin menjelajah keindahan alam Indonesia bersama teman-teman. Keasrian alam, suasana sejuk, dan kebersamaan yang tercipta menjadikan perjalanan ini sebagai kenangan tak terlupakan. Bukit Gedok bukan sekadar destinasi, melainkan tempat untuk merasakan kedekatan dengan alam dan sahabat.
-',
-                'gambar' => 'image/kolom opini 3.jpeg',
-                'tanggal' => now()->subDay(2),
-            ],
-            [
                 'kategori_id' => 1,
                 'judul' => 'Kenapa Sih Sepatu SMA Harus Hitam? Emang Gak Boleh Gaya Dikit? ' ,
                 'isi' => 'Masa SMA itu masa paling seru sekaligus paling banyak aturan. Dari rambut harus rapi, seragam harus masuk, sampai sepatu harus... ya, hitam! Kalau kamu pernah jadi anak SMA, pasti pernah ngalamin yang namanya ditegur guru cuma karena sepatumu ada warna putihnya dikit atau solnya terlalu mencolok.
@@ -560,8 +522,247 @@ Jika dikelola dengan serius, Calendar of Event 2026 bukan hanya akan menghidupka
                 'gambar' => 'image/ekoran 2.jpeg',
                 'tanggal' => now()->subDay(1),
             ],
+            [
+                'kategori_id' => 8,
+                'judul' => '10 Pelatih Real Madrid dengan Masa Jabatan Terpendek Era Perez, Xabi Alonso Urutan Berapa?' ,
+                'isi' => ' Real Madrid identik dengan kesuksesan besar di era Florentino Perez. Trofi Liga Champions, La Liga, hingga dominasi global menjadi ciri kepemimpinannya sebagai presiden klub.
+Namun, di balik prestasi tersebut, ada sisi lain yang tak kalah mencolok. Perez dikenal memiliki toleransi rendah terhadap pelatih, terutama ketika hasil di lapangan tidak sesuai ekspektasi.
+Sejak pertama kali menjabat pada tahun 2000, Perez telah melewati dua periode kepemimpinan. Pada rentang waktu itu, hampir 20 pelatih silih berganti duduk di kursi panas Santiago Bernabeu.
+Datangnya pemain bintang kelas dunia tidak selalu diiringi stabilitas di ruang teknis. Real Madrid justru menjadi salah satu klub dengan tingkat pergantian pelatih tertinggi di Eropa.
+Xabi Alonso menjadi nama terbaru yang masuk daftar tersebut. Meski hanya bekerja sekitar tujuh bulan, mantan gelandang elegan itu ternyata masih bukan pelatih dengan masa bakti tersingkat di era Perez.
+',
+                'gambar' => 'image/1.jpg',
+                'tanggal' => now()->subDay(1),
+            ],
+            [
+                'kategori_id' => 4,
+                'judul' => 'Kekuatan AI: Menyelamatkan Lingkungan atau Membahayakannya?' ,
+                'isi' => ' Kecerdasan buatan Artificial Intelligence (AI)  sering dipandang sebagai teknologi masa depan yang mampu membantu memecahkan berbagai persoalan keberlanjutan.
+Namun di balik potensi tersebut, jejak lingkungan dari teknologi AI justru menjadi perhatian 
+Dampak lingkungan dari AI semakin mendapatkan perhatian serius. Masyarakat perlu memahami bagaimana teknologi ini memengaruhi energi, air, dan limbah agar penggunaannya lebih bijak.
+Direktur Keberlanjutan di Southern New Hampshire University (SNHU) Mike Weinstein meneliti hubungan antara teknologi dan lingkungan.
+Menurutnya, interaksi antara teknologi informasi dan alam merupakan isu kompleks yang perlu dipahami secara menyeluruh.
+"Saya telah lama tertarik pada interaksi antara lingkungan alam kita dan TI, baik dalam bagaimana teknologi berdampak pada lingkungan, dan bagaimana kita menggunakan teknologi untuk belajar dan melindungi lingkungan," ujar Weinstein, dalam sebuah pernyataan, dikutip dari Southern New Hampshire University www.snhu.edu, Selasa (13/1/2026).
+Ledakan penggunaan AI memengaruhi bumi dan sumber dayanya, namun teknologi juga memiliki potensi untuk membawa perubahan positif bagi lingkungan jika digunakan secara bijak. 
+',
+                'gambar' => 'image/2.jpg',
+                'tanggal' => now()->subDay(2),
+            ],
+            [
+                'kategori_id' => 3,
+                'judul' => 'Mendagri Ungkap Syarat Pilkada Lewat DPRD Bisa Diterapkan' ,
+                'isi' => ' Menteri Dalam Negeri (Mendagri) RI Tito Karnavian menyebut salah satu syarat pelaksanaan pemilihan kepala daerah (pilkada) lewat mekanisme DPRD adalah terlebih dahulu mengubah Undang-Undang Pilkada Nomor 10 Tahun 2016.
+"Nah, tapi kalau dilakukan dengan pemilihan oleh DPRD maka Undang-Undang Pilkada yang harus diubah," kata Mendagri RI Tito Karnavian menyikapi usulan wacana pemilihan kepala daerah secara tidak langsung melalui DPRD di Kota Padang dilansir Antara, Selasa (13/1/2026).
+Tito menegaskan hal tersebut dapat merujuk kepada Undang-Undang Dasar (UUD) Negara RI Tahun 1945. Hal itu juga selaras dengan butir keempat Pancasila yang berbunyi kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan.
+Dia menjelaskan merujuk Pasal 18 UUD Negara RI Tahun 1945 menyatakan bahwa gubernur, wakil gubernur, wali kota, wakil wali kota, bupati dan wakil bupati dipilih secara demokrasi.
+Bunyi pasal tersebut menutup dilakukannya cara penunjukan. Oleh sebab itu, apabila pilkada tetap dilakukan lewat mekanisme DPRD maka harus ada perubahan undang-undang.
+"Demokrasi itu terbagi dua yakni dipilih langsung oleh rakyat dan demokrasi perwakilan. Keduanya sama-sama tidak menyalahi UUD 1945," kata dia.
+',
+                'gambar' => 'image/3.jpeg',
+                'tanggal' => now()->subDay(3),
+            ],
+            [
+                'kategori_id' => 2 ,
+                'judul' => 'Harga Emas Perhiasan Hari Ini 13 Januari 2026: Bandingkan di Raja Emas dan Laku Emas!' ,
+                'isi' => ' Dinamika pasar emas perhiasan selalu menarik perhatian masyarakat Indonesia, baik sebagai instrumen investasi maupun pelengkap gaya hidup. Pada Selasa, 13 Januari 2026, pergerakan Harga Emas Perhiasan Hari Ini kembali menjadi sorotan utama bagi para investor dan kolektor. Fluktuasi harga ini dipengaruhi oleh berbagai faktor ekonomi global dan lokal, menjadikannya informasi krusial untuk dicermati.
+Memahami pergerakan harga emas perhiasan sangat penting untuk membuat keputusan transaksi yang cerdas dan efektif. Informasi terkini ini dapat menjadi patokan bagi Anda yang berencana membeli atau menjual aset berharga tersebut. Data komprehensif mengenai harga emas perhiasan per gram dari berbagai kadar karat telah dirilis oleh dua platform terkemuka di Indonesia.
+Artikel ini akan menyajikan rangkuman lengkap Harga Emas Perhiasan Hari Ini, 13 Januari 2026, yang dikumpulkan dari Raja Emas Indonesia dan Laku Emas. Rincian ini diharapkan dapat memberikan gambaran jelas tentang nilai emas perhiasan di pasaran, membantu Anda dalam merencanakan pembelian atau penjualan aset berharga ini.
+',
+                'gambar' => 'image/4.jpg',
+                'tanggal' => now()->subDay(4),
+            ],
+            [
+                'kategori_id' => 7,
+                'judul' => 'Keberlanjutan Ubah Cara Industri Kuliner Bekerja, Kurangi Sampah Makanan dan Plastik' ,
+                'isi' => ' Keberlanjutan di industri makanan kini menjadi prioritas operasional. Meningkatnya biaya pangan, regulasi, kekurangan tenaga kerja, dan harapan konsumen memaksa bisnis menata ulang cara makanan disiapkan, disimpan, dan dikemas.
+Limbah makanan dan sampah plastik menimbulkan tekanan finansial dan lingkungan. Dapur besar dan produsen makanan sering kehilangan bahan akibat porsi tidak konsisten, pembusukan, produksi berlebih, dan penyimpanan yang kurang baik.
+Plastik sekali pakai tetap banyak digunakan karena praktis dan menjaga keamanan pangan. Kemajuan keberlanjutan akan tercapai jika sampah makanan dan plastik ditangani secara bersamaan.
+Perubahan ini bersifat jangka panjang dan memengaruhi seluruh lini operasi. Penggunaan sumber daya yang boros tidak hanya membebani lingkungan, tetapi juga menurunkan daya saing bisnis.
+Saat ini, keberlanjutan diterapkan langsung di dapur, pabrik, hingga distribusi, menurut laporan Forbes Tech Council, Kamis (8/1/2026).
+Sebagian besar limbah makanan tidak berasal dari konsumen, melainkan terjadi selama operasional. Dapur restoran, fasilitas pengolahan, dan gudang penyimpanan menjadi titik utama pemborosan bahan pangan.
+Pengurangan limbah dimulai dari perbaikan cara kerja sehari-hari. Pelacakan stok yang rapi, perencanaan produksi yang jelas, dan standar persiapan bisa mengurangi kerugian sebelum memakai teknologi baru.
+Pengaturan porsi yang tepat, resep yang jelas, dan prosedur kerja yang disiplin membantu meminimalkan kesalahan manusia di dapur atau pabrik yang sibuk. Langkah ini penting untuk efisiensi dan keberlanjutan.
+',
+                'gambar' => 'image/5.jpg',
+                'tanggal' => now()->subDay(6),
+            ],
+             [
+                'kategori_id' => 3,
+                'judul' => 'anggota kpps di mataram bagus menjalani tugasnya dengan baik' ,
+                'isi' => ' Anggota Kelompok Penyelenggara Pemungutan Suara (KPPS) di Kota Mataram mendapat apresiasi atas kinerja mereka dalam menjalani tugas dengan baik. Sejak tahapan awal hingga proses penghitungan suara, para anggota KPPS dinilai bekerja secara profesional, tertib, dan penuh tanggung jawab demi kelancaran pelaksanaan pemungutan suara.
+Pada hari pemungutan suara, KPPS terlihat sigap melayani masyarakat yang datang ke Tempat Pemungutan Suara (TPS). Proses pendaftaran pemilih, pengecekan identitas, hingga pemberian surat suara dilakukan sesuai prosedur yang berlaku. Hal ini membuat suasana di TPS berjalan tertib dan kondusif tanpa hambatan berarti.
+Ketelitian anggota KPPS juga terlihat saat proses penghitungan suara. Setiap surat suara diperiksa dengan cermat dan diumumkan secara terbuka di hadapan saksi serta pengawas. Transparansi ini memberikan rasa kepercayaan kepada masyarakat bahwa proses demokrasi berjalan secara jujur dan adil.
+Meski dihadapkan pada durasi kerja yang panjang dan tingkat kelelahan tinggi, anggota KPPS tetap menjalankan tugasnya hingga selesai. Bahkan, sebagian TPS baru menyelesaikan penghitungan suara pada malam hari. Dedikasi ini menjadi bukti komitmen mereka dalam menyukseskan pesta demokrasi.
+Masyarakat pun memberikan respons positif terhadap kinerja KPPS di Mataram. Banyak pemilih merasa terbantu dengan pelayanan yang ramah dan informatif, terutama bagi pemilih lanjut usia dan pemilih pemula. Kehadiran KPPS yang komunikatif turut menciptakan suasana TPS yang nyaman.
+Pihak terkait menyampaikan bahwa keberhasilan pelaksanaan pemungutan suara tidak lepas dari kesiapan dan kerja sama anggota KPPS. Pelatihan yang diberikan sebelumnya dinilai efektif dalam membekali KPPS menghadapi berbagai situasi di lapangan.
+Selain menjalankan tugas teknis, KPPS juga dinilai mampu menjaga netralitas selama proses pemilu berlangsung. Hal ini menjadi faktor penting dalam menjaga integritas dan kredibilitas penyelenggaraan pemilihan di Kota Mataram.
+Dengan kinerja yang dinilai baik ini, diharapkan anggota KPPS di Mataram dapat menjadi contoh bagi penyelenggara pemilu di daerah lain. Profesionalisme dan tanggung jawab yang ditunjukkan menjadi bagian penting dalam memperkuat demokrasi dan kepercayaan publik terhadap proses pemilihan.',
+                'gambar' => 'image/nasional 4.jpeg',
+                'tanggal' => now()->subDay(3),
+            ],
+            [
+                'kategori_id' => 8,
+                'judul' => 'Reza Menang Telak di Babak Pertama India Open 2026' ,
+                'isi' => ' GANDA putra Indonesia Sabar Karyaman Gutama/Moh Reza Pahlevi Isfahani atau Sabar/Reza membuka langkah di India Open 2026 dengan kemenangan meyakinkan dua gim langsung dan menjadi satu-satunya wakil Indonesia di sektor tersebut.
+Sabar/Reza melaju ke babak kedua India Open 2026 setelah meraih kemenangan telak pada laga pembuka.
+Tampil di Indira Gandhi Indoor Stadium, New Delhi, Rabu (13/1), pasangan unggulan ketujuh itu menundukkan Chen Zhi Ray/Lin Yu Chieh dari Chinese Taipei dengan skor 21-13 dan 21-8.
+Sabar menilai kunci kemenangan terletak pada kontrol permainan dan inisiatif menyerang sejak awal laga. Ia menyebut kecepatan shuttlecock di arena pertandingan lebih kencang dibandingkan turnamen sebelumnya.
+"Kami mencoba terus mengontrol pertandingan dan menyerang dari awal. Kondisi bola di sini lebih kencang dibandingkan di Malaysia," kata Sabar.
+Ia juga mengungkapkan antusiasmenya tampil di India Open sebagai satu-satunya wakil ganda putra Indonesia. "Pastinya senang dan excited. Kami berharap bisa terus tampil maksimal di setiap pertandingan," ujarnya.
+Reza menambahkan perbedaan kondisi shuttlecock sempat terasa dibandingkan saat latihan, namun bisa dimanfaatkan dengan baik. "Shuttlecock sedikit lebih kencang, dan kami bisa memanfaatkan situasi itu," kata Reza singkat.
+Kemenangan ini memastikan Sabar/Reza melangkah ke babak berikutnya dan menjaga asa Indonesia di sektor ganda putra pada turnamen Super 750 tersebut.
+(H-4)
+',
+                'gambar' => 'image/77.jpeg',
+                'tanggal' => now()->subDay(3),
+            ],
+            [
+                'kategori_id' => 3,
+                'judul' => 'PKUB Perkuat Peran Pemuda dalam Kerukunan Piloting Youth Harmony Diikuti Peserta Lintas Agama' ,
+                'isi' => '  Pusat Kerukunan Umat Beragama (PKUB) Kementerian Agama kembali mendorong penguatan literasi kerukunan di kalangan anak muda melalui penyelenggaraan Harmony Class, bagian awal dari program Youth Harmony 2026. Kegiatan yang digelar di Malang Raya dan Daerah Istimewa Yogyakarta pada awal Desember itu menunjukkan tingginya minat generasi muda untuk terlibat dalam isu kerukunan.
+Kegiatan di Malang Raya dan Jawa Timur pada 2 Desember diikuti 828 peserta, disusul penyelenggaraan di Daerah Istimewa Yogyakarta dua hari setelahnya dengan jumlah peserta mencapai 695 orang. Peserta berasal dari enam agama dan beragam latar belakang, mulai dari pelajar, mahasiswa, hingga komunitas pemuda lintas iman. Kehadiran mereka menjadi penanda bahwa kerukunan terus dipandang sebagai isu relevan dalam kehidupan sosial saat ini.
+Menteri Agama RI Prof. Nasaruddin Umar membuka kegiatan dan menyoroti posisi PKUB dalam merawat harmoni di Indonesia. “PKUB memiliki posisi sentral dalam merawat harmoni,” ujarnya. Ia juga menggarisbawahi pentingnya keterlibatan pemuda. “Program seperti Harmony Class memberi ruang bagi pemuda untuk memahami keragaman secara lebih mendalam,” tambahnya.
+Kepala PKUB Kemenag RI, Muhammad Adib Abdushomad, menjelaskan tujuan dari kegiatan tersebut. “Harmony Class kami rancang sebagai ruang dialog bagi pemuda untuk bertemu, berbagi pengalaman, dan membangun empati,” katanya. Ia menegaskan kebutuhan akan kapasitas literasi kerukunan di tengah dinamika masyarakat. “Pemuda perlu memahami regulasi rumah ibadah sekaligus mempraktikkan dialog sebagai cara menyelesaikan perbedaan,” ujarnya.
+Dalam pelaksanaan di Yogyakarta, Kepala Bidang Bina Lembaga Kerukunan Agama dan Lembaga Keagamaan PKUB, Hery Susanto, menambahkan pentingnya suara pemuda dalam pengambilan kebijakan. “PKUB selalu menjadikan suara pemuda sebagai bagian dari penyusunan kebijakan,” katanya. Ia menilai pengalaman pemuda terhadap perubahan sosial dapat berkontribusi besar. “Pemuda sering menjadi pihak pertama yang merasakan perubahan sosial, sehingga pandangan mereka sangat penting untuk memperkuat strategi pencegahan konflik.”
+',
+                'gambar' => 'image/99.jpg',
+                'tanggal' => now()->subDay(4),
+            ],
+             [
+                'kategori_id' => 5,
+                'judul' => 'HRANA: Jumlah Korban Tewas dalam Aksi Demo di Iran Bertambah Jadi 646 Orang' ,
+                'isi' => '  Jumlah korban tewas akibat protes di Iran telah meningkat menjadi 646, menurut Kantor Berita Aktivis Hak Asasi Manusia (HRANA) yang berbasis di AS pada Senin.
+Dari data yang dikumpulkan HRANA, ditemukan bahwa sebanyak 10.721 orang telah ditangkap hingga hari ke-16 protes nasional di Negeri Para Mullah tersebut, dikutip dari Antara News, Selasa (13/1/2026). Dalam sebuah laporan, organisasi tersebut juga mencatat bahwa Iran telah mengalami pemadaman internet selama lebih dari 100 jam. 
+Iran telah diguncang oleh gelombang protes sejak bulan lalu, dimulai pada 28 Desember di Grand Bazaar Teheran, terkait dengan depresiasi tajam rial Iran dan memburuknya kondisi ekonomi. Demonstrasi kemudian menyebar ke beberapa kota lain.  Para pejabat Iran menuduh AS dan Israel mendukung apa yang mereka sebut sebagai "perusuh bersenjata," yang telah melakukan beberapa serangan di tempat umum di seluruh negeri.
+Sementara itu, Presiden AS Donald Trump pada Minggu (11/1) mengatakan bahwa pemerintahannya memantau situasi di Iran dengan cermat dan sedang mempertimbangkan "opsi yang sangat kuat" karena jumlah korban tewas yang terus meningkat. 
+"Kita akan mengambil keputusan," kata Trump.
+Pemimoin AS itu menambahkan bahwa pihaknya telah menerima laporan setiap jam tentang Iran, tanpa memberikan informasi tentang kapan, di mana, atau bagaimana AS akan bertindak.
+',
+                'gambar' => 'image/iran.jpeg',
+                'tanggal' => now(),
+            ],
+            [
+                'kategori_id' => 8,
+                'judul' => 'Pelatih Baru Real Madrid Resmi Diperkenalkan, Era Baru Los Blancos Dimulai' ,
+                'isi' => '  Real Madrid resmi memasuki babak baru setelah memperkenalkan pelatih anyar yang akan memimpin tim pada musim mendatang. Manajemen klub menyatakan bahwa penunjukan ini merupakan bagian dari visi jangka panjang untuk menjaga dominasi Real Madrid di level domestik maupun Eropa. Kehadiran pelatih baru ini langsung menyedot perhatian publik, mengingat ekspektasi tinggi yang selalu melekat pada klub raksasa asal Spanyol tersebut.
+Dalam acara perkenalan resmi di Santiago Bernabéu, pelatih anyar Real Madrid menyampaikan rasa bangga dan kehormatan bisa menukangi salah satu klub terbesar di dunia. Ia menegaskan bahwa melatih Real Madrid bukan hanya soal strategi, tetapi juga tentang menjaga filosofi kemenangan, mental juara, dan sejarah panjang yang dimiliki klub. “Real Madrid adalah simbol ambisi dan kerja keras. Saya datang untuk melanjutkan tradisi itu,” ujarnya di hadapan media.
+Manajemen Real Madrid menjelaskan bahwa pemilihan pelatih baru dilakukan melalui pertimbangan matang, mulai dari rekam jejak kepelatihan, pemahaman taktik modern, hingga kemampuannya mengelola ruang ganti yang diisi pemain bintang. Klub berharap sosok ini mampu meramu keseimbangan antara pemain senior berpengalaman dan talenta muda yang sedang berkembang pesat.
+Secara taktik, pelatih baru Real Madrid dikenal fleksibel dan adaptif. Ia tidak terpaku pada satu skema permainan, melainkan menyesuaikan strategi dengan karakter pemain yang dimiliki. Pendekatan ini diyakini cocok dengan skuad Real Madrid saat ini yang kaya akan variasi permainan, baik dari sisi kecepatan sayap, kreativitas lini tengah, maupun ketajaman lini depan.
+Para pemain menyambut positif kedatangan pelatih anyar tersebut. Beberapa pilar tim menyatakan antusiasme untuk bekerja di bawah arahan baru yang diyakini membawa ide segar dan semangat kompetitif tinggi. Latihan perdana pun disebut berlangsung intens, dengan penekanan pada disiplin, pressing, dan transisi cepat—ciri khas permainan modern yang ingin diterapkan.
+Di sisi lain, para penggemar Real Madrid menaruh harapan besar agar pelatih baru mampu membawa klub kembali berjaya di Liga Champions. Kompetisi Eropa selalu menjadi tolok ukur kesuksesan Los Blancos, dan setiap pelatih yang datang otomatis dibebani target besar untuk mengangkat trofi bergengsi tersebut.
+Meski demikian, pelatih anyar Real Madrid mengajak semua pihak untuk tetap realistis dan memberikan waktu bagi proses adaptasi. Ia menekankan pentingnya kerja tim, konsistensi, dan dukungan penuh dari suporter. Menurutnya, kesuksesan tidak datang secara instan, tetapi melalui kerja keras yang berkelanjutan sepanjang musim.
+Dengan dimulainya era baru ini, Real Madrid kembali menunjukkan ambisinya untuk terus berada di puncak sepak bola dunia. Kombinasi sejarah besar, skuad bertabur bintang, dan sentuhan pelatih baru menjadi harapan segar bagi Los Blancos dalam menghadapi tantangan musim depan.',
+                'gambar' => 'image/nyerah.jpeg',
+                'tanggal' => now(),
+            ],
+            [
+                'kategori_id' => 1,
+                'judul' => 'Tren Swafoto di Alam Terbuka Kian Digemari Anak Muda' ,
+                'isi' => '  Aktivitas swafoto di alam terbuka semakin menjadi tren di kalangan anak muda. Seperti terlihat pada momen kebersamaan sekelompok remaja yang mengabadikan diri di tengah hamparan bunga liar dengan latar langit biru cerah. Suasana santai dan ekspresi ceria menunjukkan bahwa kegiatan sederhana ini mampu menghadirkan kebahagiaan tersendiri.
+Fenomena ini tidak lepas dari meningkatnya minat generasi muda terhadap aktivitas luar ruangan. Selain sebagai sarana rekreasi, berfoto di alam juga dianggap mampu memberikan ketenangan serta melepas penat dari rutinitas harian. Pemandangan hijau dan udara segar menjadi daya tarik utama yang sulit ditemukan di tengah hiruk-pikuk perkotaan.
+Perkembangan teknologi kamera pada ponsel pintar turut mendorong tren ini. Dengan kualitas kamera yang semakin canggih, pengguna dapat mengabadikan momen secara jernih tanpa perlu perangkat tambahan. Hasil foto pun terlihat lebih natural, tajam, dan estetik, sehingga cocok dibagikan di berbagai platform media sosial.
+Media sosial sendiri menjadi faktor penting dalam menyebarkan tren swafoto di alam. Banyak anak muda berlomba-lomba menampilkan momen kebersamaan mereka dengan latar pemandangan indah. Hal ini secara tidak langsung mendorong gaya hidup aktif dan apresiasi terhadap keindahan alam sekitar.
+Namun, di balik tren tersebut, masyarakat juga diimbau untuk tetap menjaga kelestarian lingkungan. Aktivitas berfoto sebaiknya tidak merusak tanaman, mengotori area sekitar, atau mengganggu keseimbangan alam. Kesadaran ini penting agar keindahan alam tetap dapat dinikmati oleh generasi selanjutnya.
+Dengan memadukan teknologi, kreativitas, dan kepedulian terhadap lingkungan, tren swafoto di alam terbuka diharapkan tidak hanya menjadi ajang eksistensi, tetapi juga sarana untuk menumbuhkan kecintaan terhadap alam dan kebersamaan antar sesama.',
+                'gambar' => 'image/nyerah 2.jpeg',
+                'tanggal' => now(),
+            ],
+            [
+                'kategori_id' => 6,
+                'judul' => 'Klub Sepakbola dengan Basis Penggemar Terbesar di Dunia' ,
+                'isi' => 'FC Barcelona kembali menjadi sorotan dunia sepak bola setelah menunjukkan performa yang semakin konsisten di kompetisi domestik maupun Eropa. Klub asal Catalunya tersebut perlahan bangkit dari masa transisi dengan mengandalkan kombinasi pemain muda berbakat dan pengalaman para pemain senior. Dukungan penuh dari para pendukung setia di Camp Nou juga menjadi faktor penting dalam menjaga semangat tim.  
+Di bawah arahan pelatih saat ini, Barcelona menampilkan gaya permainan khas tiki-taka yang kembali hidup, meskipun dengan pendekatan yang lebih modern dan fleksibel. Penguasaan bola, pergerakan tanpa bola, serta tekanan tinggi menjadi ciri utama permainan Blaugrana. Hal ini terlihat dari sejumlah pertandingan penting yang berhasil dimenangkan dengan dominasi permainan.
+Sejumlah pemain muda seperti hasil akademi La Masia tampil menonjol dan menjadi tulang punggung tim. Kehadiran mereka tidak hanya memberikan energi baru, tetapi juga menjaga identitas klub yang selama ini dikenal sebagai pencetak pemain kelas dunia. Manajemen klub pun terus berupaya memberi ruang bagi talenta muda untuk berkembang di level tertinggi.
+Meski demikian, Barcelona masih menghadapi tantangan, terutama dari sisi finansial dan konsistensi performa. Persaingan ketat di La Liga dengan klub-klub besar lainnya menuntut Barcelona untuk terus berbenah dan menjaga stabilitas tim sepanjang musim. Setiap laga menjadi ujian penting dalam upaya kembali meraih gelar juara.
+Ke depan, Barcelona menargetkan prestasi yang lebih tinggi dengan tetap berpegang pada filosofi permainan menyerang dan pengembangan pemain muda. Dengan fondasi yang mulai kuat dan dukungan penuh dari seluruh elemen klub, Barcelona optimistis dapat kembali menjadi kekuatan dominan di sepak bola Eropa dan dunia.',
+                'gambar' => 'image/kolom opini 1.jpeg',
+                'tanggal' => now(),
+            ],
+            [
+                'kategori_id' => 6,
+                'judul' => 'Restoran bintang lima di karang kelok yang wajib dikunjungi para foodies' ,
+                'isi' => 'Restoran bintang lima di kawasan Karang Kelok kini menjadi magnet baru bagi para foodies. Kawasan yang sebelumnya dikenal sebagai jalur strategis dan pusat aktivitas masyarakat ini mulai menunjukkan geliat kuliner kelas atas. Kehadiran restoran berkonsep mewah menjadikan Karang Kelok tidak hanya ramai, tetapi juga punya daya tarik baru di sektor wisata kuliner.
+Restoran-restoran tersebut menawarkan pengalaman bersantap yang berbeda dari tempat makan pada umumnya. Mulai dari desain interior elegan, pelayanan profesional, hingga penyajian makanan berstandar tinggi, semuanya dirancang untuk memberikan kesan eksklusif bagi pengunjung. Hal ini membuat restoran di Karang Kelok layak disejajarkan dengan restoran bintang lima di kota besar.
+Menu yang disajikan pun sangat beragam dan berkualitas. Mulai dari hidangan internasional seperti steak premium, pasta, dan seafood segar, hingga olahan khas Nusantara yang dikemas secara modern. Pemilihan bahan baku segar dan teknik memasak profesional menjadi kunci utama cita rasa yang dihadirkan.
+Tak hanya soal rasa, suasana menjadi nilai tambah utama. Restoran bintang lima di Karang Kelok umumnya mengusung konsep nyaman dan berkelas, cocok untuk jamuan bisnis, acara keluarga, maupun makan malam romantis. Tata cahaya, musik, dan kebersihan ruangan diperhatikan secara detail.
+Pelayanan juga menjadi aspek yang sangat diutamakan. Para staf dilatih untuk bersikap ramah, sigap, dan profesional dalam melayani tamu. Hal ini membuat pengunjung merasa dihargai dan ingin kembali berkunjung.
+Kehadiran restoran berkelas ini turut memberikan dampak positif bagi perekonomian lokal. Mulai dari penyerapan tenaga kerja, peningkatan UMKM pemasok bahan makanan, hingga mendorong Karang Kelok sebagai destinasi kuliner unggulan.
+Para foodies menilai restoran bintang lima di Karang Kelok sebagai destinasi wajib dikunjungi. Selain memanjakan lidah, pengalaman bersantap di tempat ini memberikan kesan prestise dan kenyamanan yang sulit ditemukan di tempat lain.
+Dengan terus berkembangnya sektor kuliner premium, Karang Kelok berpotensi menjadi pusat gastronomi baru. Perpaduan antara lokasi strategis, kualitas makanan, dan pelayanan kelas atas menjadikan kawasan ini semakin diperhitungkan di dunia kuliner.
+',
+                'gambar' => 'image/kolom opini 4.jpeg',
+                'tanggal' => now(),
+            ],
+            [
+                'kategori_id' => 6,
+                'judul' => 'Miniatur Masjid Takbiran Terbagus selombok di pegang oleh Karang Kelok' ,
+                'isi' => 'Miniatur masjid untuk perayaan takbiran yang dinilai sebagai salah satu yang terbagus se-Lombok tahun ini berada di bawah naungan Karang Kelok. Miniatur tersebut mencuri perhatian masyarakat karena desainnya yang megah, detail arsitektur yang rapi, serta pencahayaan yang memukau saat malam takbiran. Keindahan miniatur ini membuat Karang Kelok menjadi pusat perhatian warga dari berbagai daerah.
+Pembuatan miniatur masjid ini melibatkan pemuda dan tokoh masyarakat Karang Kelok yang bekerja sama secara gotong royong. Proses pengerjaan dimulai jauh hari sebelum malam Idulfitri, dengan perencanaan konsep yang matang agar hasilnya tidak hanya indah dipandang, tetapi juga memiliki nilai religius yang kuat. Setiap detail dikerjakan dengan penuh ketelitian, mulai dari kubah, menara, hingga ornamen khas masjid.
+Keunikan miniatur masjid takbiran Karang Kelok terletak pada perpaduan antara desain modern dan sentuhan tradisional Lombok. Ornamen ukiran, warna-warna elegan, serta tata cahaya yang tertata rapi menjadikan miniatur ini tampil berbeda dibandingkan miniatur takbiran lainnya. Saat iringan takbir dikumandangkan, miniatur masjid ini semakin memancarkan nuansa sakral dan khidmat.
+Selain menonjolkan keindahan visual, miniatur masjid ini juga menjadi simbol kebersamaan warga Karang Kelok. Seluruh proses pengerjaan dilakukan secara sukarela, mulai dari pengumpulan bahan, perakitan rangka, hingga pemasangan lampu. Kebersamaan ini mencerminkan semangat gotong royong yang masih terjaga kuat di tengah masyarakat.
+Miniatur masjid takbiran tersebut mendapat banyak pujian dari masyarakat dan pengunjung. Tidak sedikit warga dari luar Karang Kelok yang sengaja datang untuk menyaksikan langsung keindahan miniatur tersebut. Banyak yang mengabadikan momen dengan berfoto dan membagikannya di media sosial, sehingga nama Karang Kelok semakin dikenal luas.
+Tokoh masyarakat setempat menyampaikan rasa bangga atas capaian ini. Menurut mereka, keberhasilan menghadirkan miniatur masjid takbiran terbaik bukan sekadar soal prestasi, melainkan bukti kreativitas dan kekompakan warga. Kegiatan ini juga menjadi sarana positif bagi generasi muda untuk menyalurkan ide dan kreativitas dalam kegiatan bernilai religius.
+Keberadaan miniatur masjid takbiran ini turut memberikan dampak sosial yang positif. Selain mempererat silaturahmi antarwarga, kegiatan ini juga menjadi hiburan religius yang dinantikan setiap tahun. Tradisi takbiran pun terasa lebih semarak dan bermakna dengan hadirnya karya seni bernuansa Islami tersebut.
+Karang Kelok berharap miniatur masjid takbiran ini dapat menjadi inspirasi bagi daerah lain di Lombok. Dengan menjaga semangat kebersamaan, kreativitas, dan nilai-nilai keagamaan, tradisi takbiran tidak hanya menjadi perayaan rutin, tetapi juga wadah untuk memperkuat identitas dan persatuan masyarakat.',
+                'gambar' => 'image/kolom opini 7.jpeg',
+                'tanggal' => now(),
+            ],
+             [
+                'kategori_id' => 6,
+                'judul' => 'Para Pakar IT Membahas Tren Teknologi yang Akan Mendominasi Tahun 2026' ,
+                'isi' => 'Para pakar teknologi informasi (IT) nasional dan internasional berkumpul dalam sebuah forum diskusi besar untuk mengulas tren teknologi yang diprediksi akan mendominasi tahun 2026. Acara ini diadakan di salah satu pusat konferensi di Jakarta dengan menghadirkan nama-nama ahli dari berbagai sektor, termasuk pengembang perangkat lunak, arsitek cloud computing, hingga pakar keamanan siber. Diskusi ini menjadi sorotan publik karena menyajikan wawasan mendalam tentang arah inovasi teknologi masa depan.
+Salah satu topik utama yang dibahas adalah Artificial Intelligence (AI) dan Machine Learning (ML). Para pakar sepakat bahwa AI akan terus berkembang pesat di berbagai industri, mulai dari kesehatan, pendidikan, hingga manufaktur. Dengan kemampuan AI yang semakin canggih untuk menganalisis data besar, para ahli memperkirakan otomatisasi cerdas akan menjadi kunci efisiensi operasional di banyak sektor.
+Tak kalah menarik, teknologi generative AI juga diprediksi akan mencapai fase baru pada 2026. Generative AI, yang mampu menghasilkan teks, gambar, dan solusi inovatif, diharapkan membawa perubahan besar dalam cara konten digital diproduksi dan diintegrasikan ke layanan sehari-hari. Para pakar menekankan bahwa etika dan regulasi akan menjadi agenda penting seiring perkembangan ini.
+Selain AI, Internet of Things (IoT) juga disebut sebagai tren yang terus menguat. Dengan semakin terhubungnya perangkat elektronik dari rumah hingga pabrik, IoT diperkirakan menjadi tulang punggung ekosistem smart city dan industri 4.0. Pakar menyebutkan bahwa peningkatan konektivitas 5G dan teknologi edge computing akan mempercepat adopsi IoT pada skala yang lebih luas.
+Di sisi lain, keamanan siber menjadi sorotan serius dalam forum tersebut. Dengan semakin kompleksnya ancaman digital, para ahli teknologi menekankan perlunya pendekatan keamanan proaktif. Tren keamanan siber di 2026 diprediksi meliputi penggunaan AI untuk deteksi ancaman, serta peningkatan investasi pada sistem pertahanan dan pelatihan sumber daya manusia.
+Cloud computing juga tak luput dari sorotan para pakar. Teknologi ini diperkirakan akan terus berevolusi, terutama dalam bentuk hybrid dan multi-cloud solutions yang menawarkan fleksibilitas, skalabilitas, dan penghematan biaya. Kolaborasi antara penyedia layanan cloud besar dengan startup inovatif diprediksi mendorong transformasi digital perusahaan di berbagai negara.
+Tren lain yang dibahas adalah teknologi augmented reality (AR) dan virtual reality (VR). Dengan semakin populernya metaverse dan aplikasi immersive, pakar IT memperkirakan peningkatan penggunaan AR/VR dalam pelatihan industri, hiburan, dan edukasi. Teknologi ini diproyeksikan membuka peluang baru baik dalam aspek pengalaman pengguna maupun solusi praktis di berbagai bidang.
+Dengan beragam tren yang diulas, para pakar sepakat bahwa 2026 akan menjadi tahun yang penuh dinamika dalam dunia teknologi. Mereka mengajak pelaku industri, pemerintahan, dan akademisi untuk bersiap menghadapi perubahan cepat dan memastikan inovasi dapat dimanfaatkan secara bertanggung jawab demi kemajuan masyarakat.',
+                'gambar' => 'image/kolom opini 5.jpeg',
+                'tanggal' => now()->subDay(10),
+            ],
+             [
+                'kategori_id' => 6,
+                'judul' => 'Para Artis Muda yang Membawa Angin Segar bagi dunia Sepak Bola' ,
+                'isi' => 'Para artis muda sepak bola terus bermunculan dan menjadi sorotan utama dalam beberapa musim terakhir. Kehadiran mereka tidak hanya menghadirkan permainan yang atraktif, tetapi juga memberi harapan baru bagi klub dan tim nasional masing-masing. Dengan usia yang relatif muda, para pemain ini sudah menunjukkan kematangan bermain yang luar biasa di level tertinggi.
+Kecepatan, kreativitas, dan keberanian menjadi ciri khas yang melekat pada generasi pemain muda saat ini. Mereka tampil tanpa rasa takut menghadapi lawan berpengalaman, bahkan kerap menjadi penentu kemenangan dalam pertandingan penting. Gaya bermain modern yang mengandalkan teknik tinggi dan mobilitas membuat sepak bola semakin menarik untuk disaksikan.
+Beberapa nama berhasil mencuri perhatian publik berkat konsistensi dan kontribusi besar di klubnya. Gol-gol penting, assist cerdas, hingga kemampuan membaca permainan menjadikan mereka aset berharga. Tidak sedikit dari mereka yang dipercaya mengenakan ban kapten atau menjadi tumpuan utama meski usianya masih sangat muda.
+Dampak kehadiran artis muda juga terasa dalam perkembangan strategi permainan. Pelatih kini lebih berani memberikan menit bermain kepada pemain belia karena kualitas yang mereka miliki. Hal ini turut mendorong regenerasi yang sehat dalam sepak bola, sekaligus mematahkan anggapan bahwa pengalaman usia selalu menjadi faktor utama kesuksesan.
+Di luar lapangan, popularitas para pemain muda ini turut meningkatkan daya tarik sepak bola secara global. Media sosial menjadi sarana bagi mereka untuk terhubung langsung dengan penggemar, menciptakan kedekatan emosional yang kuat. Citra positif dan profesionalisme yang ditunjukkan turut menginspirasi generasi muda untuk menekuni dunia sepak bola.
+Dengan pembinaan yang tepat dan mental yang terjaga, para artis muda ini diyakini akan menjadi ikon sepak bola masa depan. Mereka bukan sekadar bintang sesaat, melainkan fondasi penting bagi perkembangan olahraga ini. Dunia sepak bola pun menatap masa depan dengan optimisme berkat hadirnya talenta-talenta muda yang membawa angin segar.
+',
+                'gambar' => 'image/kolom opini 2.jpeg',
+                'tanggal' => now()->subDay(1),
+            ],
+             [
+                'kategori_id' => 6,
+                'judul' => 'Pergi Menjelajah Keindahan Alam Indonesia Bersama Teman-Teman: Pesona Bukit Gedok Sembalun, NTB' ,
+                'isi' => 'Menjelajah keindahan alam Indonesia bersama teman-teman menjadi pengalaman berharga yang penuh kesan. Salah satu destinasi yang kini semakin menarik perhatian wisatawan adalah Bukit Gedok yang terletak di kawasan Sembalun, Lombok, Nusa Tenggara Barat. Keindahan alam yang masih asri menjadikan bukit ini pilihan tepat bagi pencinta petualangan dan ketenangan alam.
+Bukit Gedok menawarkan panorama alam yang memukau dengan hamparan perbukitan hijau serta latar megah Gunung Rinjani. Udara sejuk khas pegunungan menyambut setiap pengunjung yang datang, menciptakan suasana nyaman dan menenangkan. Pemandangan ini menjadi daya tarik utama bagi wisatawan lokal maupun luar daerah.
+Perjalanan menuju Bukit Gedok menjadi bagian dari pengalaman seru bersama teman-teman. Akses jalan yang menantang namun aman menambah sensasi petualangan, terutama bagi para pencinta alam dan fotografi. Setiap sudut perjalanan menyuguhkan pemandangan sawah, perkampungan warga, serta alam Sembalun yang memanjakan mata.
+Sesampainya di puncak Bukit Gedok, rasa lelah langsung terbayar lunas. Dari ketinggian, pengunjung dapat menikmati panorama alam yang luas dan menawan, terutama saat pagi dan sore hari. Momen matahari terbit dan terbenam menjadi waktu favorit untuk mengabadikan keindahan alam bersama sahabat.
+Kebersamaan dengan teman-teman semakin terasa hangat saat menikmati suasana alam yang tenang. Bukit Gedok menjadi tempat ideal untuk bersantai, berbincang, hingga menikmati bekal sederhana sambil ditemani angin sepoi-sepoi. Aktivitas ini mempererat kebersamaan sekaligus menjadi pelepas penat dari rutinitas harian.
+Selain keindahan alamnya, keramahan masyarakat sekitar juga menjadi nilai tambah. Warga Sembalun dikenal ramah dan terbuka terhadap wisatawan, sehingga perjalanan terasa lebih aman dan menyenangkan. Hal ini turut mendukung Bukit Gedok sebagai destinasi wisata alam yang berkelanjutan.
+Dengan segala pesonanya, Bukit Gedok Sembalun layak menjadi tujuan wisata bagi siapa saja yang ingin menjelajah keindahan alam Indonesia bersama teman-teman. Keasrian alam, suasana sejuk, dan kebersamaan yang tercipta menjadikan perjalanan ini sebagai kenangan tak terlupakan. Bukit Gedok bukan sekadar destinasi, melainkan tempat untuk merasakan kedekatan dengan alam dan sahabat.
+',
+                'gambar' => 'image/kolom opini 3.jpeg',
+                'tanggal' => now()->subDay(2),
+            ],
+            [
+                'kategori_id' => 6,
+                'judul' => 'Pendaki Dari Karang kelok membuka jalur pendakian baru' ,
+                'isi' => 'Pendaki asal Karang Kelok kembali menorehkan prestasi dengan membuka jalur pendakian baru yang dinilai lebih aman dan menantang. Jalur ini dibuka setelah melalui proses eksplorasi dan pemetaan selama berbulan-bulan oleh kelompok pendaki lokal yang memiliki kepedulian tinggi terhadap keselamatan serta kelestarian alam. Pembukaan jalur baru ini menjadi kabar baik bagi dunia pendakian, khususnya di wilayah Lombok dan sekitarnya.
+Inisiatif pembukaan jalur tersebut berawal dari seringnya pendaki pemula mengalami kesulitan di jalur lama. Kondisi jalur yang curam, minim penanda, serta rawan longsor saat musim hujan mendorong para pendaki Karang Kelok untuk mencari alternatif rute yang lebih ramah namun tetap menantang. Dengan pengalaman bertahun-tahun mendaki gunung, tim ini merasa terpanggil untuk memberikan kontribusi nyata bagi keselamatan para pendaki.
+Proses pembukaan jalur dilakukan secara bertahap dan penuh perhitungan. Tim pendaki terlebih dahulu melakukan survei medan, mencatat kontur tanah, vegetasi, serta potensi bahaya yang mungkin muncul. Jalur baru ini dirancang mengikuti jalur alami tanpa merusak lingkungan sekitar, dengan memanfaatkan celah alami hutan dan lereng gunung.
+Selain membuka jalur, para pendaki juga memasang penanda dan titik istirahat. Penanda berupa pita jalur, cat penunjuk arah, serta titik koordinat GPS dipasang untuk memudahkan navigasi. Beberapa titik juga dijadikan lokasi istirahat yang aman bagi pendaki, terutama bagi mereka yang kelelahan atau membutuhkan tempat berlindung sementara.
+Keamanan dan kelestarian lingkungan menjadi prioritas utama dalam pembukaan jalur ini. Para pendaki Karang Kelok menegaskan bahwa jalur tersebut tidak dibuka secara sembarangan. Mereka menghindari penebangan pohon besar dan menjaga ekosistem tetap utuh. Bahkan, jalur ini juga dilengkapi dengan imbauan untuk membawa turun kembali sampah sebagai bentuk edukasi kepada para pendaki.
+Pembukaan jalur pendakian baru ini mendapat sambutan positif dari komunitas pecinta alam. Banyak pendaki menilai jalur tersebut lebih terstruktur dan aman, terutama bagi pendaki pemula maupun pendaki yang membawa tim. Jalur baru ini juga menawarkan panorama alam yang berbeda, dengan pemandangan lembah, hutan alami, serta spot foto yang belum banyak terekspos.
+Tak hanya berdampak pada dunia pendakian, jalur baru ini juga diharapkan mampu meningkatkan potensi wisata lokal. Kehadiran jalur pendakian baru diyakini dapat menarik wisatawan pecinta alam untuk berkunjung ke Karang Kelok. Hal ini tentu membuka peluang ekonomi baru bagi masyarakat sekitar, mulai dari jasa pemandu lokal hingga penginapan dan usaha kecil lainnya.
+Para pendaki Karang Kelok berharap jalur ini dapat dijaga dan dimanfaatkan secara bertanggung jawab. Mereka mengajak seluruh pendaki untuk mematuhi aturan, menjaga etika pendakian, serta menghormati alam. Dengan kolaborasi antara komunitas, masyarakat, dan pihak terkait, jalur pendakian baru ini diharapkan dapat menjadi warisan alam yang aman, lestari, dan bermanfaat bagi generasi mendatang.',
+                'gambar' => 'image/kolom opini 6.jpeg',
+                'tanggal' => now()->subDay(3),
+            ],
         ];
-
         foreach ($beritas as $berita) {
             Berita::create($berita);
         }
