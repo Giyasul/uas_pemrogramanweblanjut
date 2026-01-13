@@ -11,6 +11,17 @@ class BeritaSeeder extends Seeder
     {
         $beritas = [
             [
+                'kategori_id' => 6,
+                'judul' => 'Klub Sepakbola dengan Basis Penggemar Terbesar di Dunia' ,
+                'isi' => 'FC Barcelona kembali menjadi sorotan dunia sepak bola setelah menunjukkan performa yang semakin konsisten di kompetisi domestik maupun Eropa. Klub asal Catalunya tersebut perlahan bangkit dari masa transisi dengan mengandalkan kombinasi pemain muda berbakat dan pengalaman para pemain senior. Dukungan penuh dari para pendukung setia di Camp Nou juga menjadi faktor penting dalam menjaga semangat tim.  
+Di bawah arahan pelatih saat ini, Barcelona menampilkan gaya permainan khas tiki-taka yang kembali hidup, meskipun dengan pendekatan yang lebih modern dan fleksibel. Penguasaan bola, pergerakan tanpa bola, serta tekanan tinggi menjadi ciri utama permainan Blaugrana. Hal ini terlihat dari sejumlah pertandingan penting yang berhasil dimenangkan dengan dominasi permainan.
+Sejumlah pemain muda seperti hasil akademi La Masia tampil menonjol dan menjadi tulang punggung tim. Kehadiran mereka tidak hanya memberikan energi baru, tetapi juga menjaga identitas klub yang selama ini dikenal sebagai pencetak pemain kelas dunia. Manajemen klub pun terus berupaya memberi ruang bagi talenta muda untuk berkembang di level tertinggi.
+Meski demikian, Barcelona masih menghadapi tantangan, terutama dari sisi finansial dan konsistensi performa. Persaingan ketat di La Liga dengan klub-klub besar lainnya menuntut Barcelona untuk terus berbenah dan menjaga stabilitas tim sepanjang musim. Setiap laga menjadi ujian penting dalam upaya kembali meraih gelar juara.
+Ke depan, Barcelona menargetkan prestasi yang lebih tinggi dengan tetap berpegang pada filosofi permainan menyerang dan pengembangan pemain muda. Dengan fondasi yang mulai kuat dan dukungan penuh dari seluruh elemen klub, Barcelona optimistis dapat kembali menjadi kekuatan dominan di sepak bola Eropa dan dunia.',
+                'gambar' => 'image/kolom 1.jpeg',
+                'tanggal' => now(),
+            ],
+            [
                 'kategori_id' => 1,
                 'judul' => 'Kenapa Sih Sepatu SMA Harus Hitam? Emang Gak Boleh Gaya Dikit? ' ,
                 'isi' => 'Masa SMA itu masa paling seru sekaligus paling banyak aturan. Dari rambut harus rapi, seragam harus masuk, sampai sepatu harus... ya, hitam! Kalau kamu pernah jadi anak SMA, pasti pernah ngalamin yang namanya ditegur guru cuma karena sepatumu ada warna putihnya dikit atau solnya terlalu mencolok.
