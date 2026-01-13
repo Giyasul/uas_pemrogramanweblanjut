@@ -54,13 +54,6 @@
     font-weight:700;
 }
 
-/* indicator bulat */
-.carousel-indicators [data-bs-target]{
-    width:10px;
-    height:10px;
-    border-radius:50%;
-}
-
 /* ================= SIDEBAR ================= */
 .sidebar-img{
     width:75px;
@@ -84,7 +77,7 @@
     border-radius:10px;
     transition:.35s;
 }
-.pilihan-img:hover{transform:scale(1.1);}
+.pilihan-img:hover{transform:scale(1.05);}
 
 /* ================= POPULER ================= */
 .populer-box{
@@ -286,7 +279,7 @@
      data-bs-ride="carousel">
 
 {{-- indicators --}}
-<div class="carousel-indicators">
+<div>
 @foreach($carouselBerita as $i=>$c)
 <button type="button"
         data-bs-target="#carouselExampleIndicators"
