@@ -69,7 +69,7 @@
     border-radius:8px;
     transition:.35s;
 }
-.sidebar-img:hover{transform:scale(1.15);}
+.sidebar-img:hover{transform:scale(1.1);}
 .sidebar-title{
     font-size:14px;
     font-weight:600;
