@@ -183,13 +183,13 @@
     font-size:22px;
     font-weight:700;
     line-height:1.3;
-    color:#000;
+    color:#fcfcfc;
     text-decoration:none;
     transition:.25s;
 }
 
 .news-feed-title:hover{
-    color:#083b87;
+    color:#ffb703;
 }
 
 .news-feed-meta{
