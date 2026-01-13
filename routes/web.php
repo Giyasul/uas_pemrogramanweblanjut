@@ -26,3 +26,6 @@ Route::get('/disclaimer', function () {
 });
 Route::get('/', [BeritaController::class, 'index']);
 Route::get('/berita/{id}', [BeritaController::class, 'show']);
+Route::get('/beritanav', [BeritaController::class, 'beritanav']);
+Route::get('/kategori/{id}', [BeritaController::class, 'kategori']);
+

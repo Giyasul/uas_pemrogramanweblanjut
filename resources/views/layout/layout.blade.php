@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('judul')</title>
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-</head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
 <style>
 body {
     background-color: #f2f2f2;
@@ -158,55 +159,46 @@ body {
 </div>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg nav-opini rounded py-1" >
-    <div class="container-fluid">
-        <ul class="navbar-nav fw-bold">
-            <li class="nav-item">
-                <a class="nav-link " href="#">Indeks</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Berita Lokal</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Berita Nasional</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">E-Koran</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Internasional</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Kolom Opini</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Kuliner</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Olahraga</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Politik</a>
-            </li>
-        </ul>
-    </div>
+<nav class="navbar navbar-expand-lg nav-opini rounded py-1">
+  <div class="container-fluid">
+    <ul class="navbar-nav fw-bold">
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url('/beritanav') }}">Indeks</a>
+      </li>
+      @foreach ($kategoris as $kat)
+        <li class="nav-item">
+          <a 
+            class="nav-link {{ isset($kategori) && $kategori->id == $kat->id ?  : '' }}"
+            href="{{ url('/kategori/'.$kat->id) }}">
+            {{ $kat->nama_kategori }}
+          </a>
+        </li>
+      @endforeach
+
+    </ul>
+  </div>
 </nav>
+
 <!-- HASHTAG BAR -->
 <nav class="navbar navbar-expand-lg bg-body-secondary rounded py-2" >
   <div class="container-fluid">
     <ul class="navbar-nav gap-4 fw-semibold">
-        <li class="nav-item">  
-            <a href="#" class="hashtag-link">#berita lokal</a>
+                <li>
+            <a 
+              href="{{ url('/beritanav') }}"
+              class="hashtag-link {{ request()->is('beritanav') ? 'active' : '' }}">#
+              Indeks
+            </a>
         </li>
-          <li class="nav-item">  
-            <a href="#" class="hashtag-link">#e-koran</a>
-        </li>
-          <li class="nav-item">  
-            <a href="#" class="hashtag-link">#kolom opini</a>
-        </li>
-          <li class="nav-item">  
-            <a href="#" class="hashtag-link">#olahraga</a>
-        </li>
+        @foreach ($kategoris->take(4) as $kat)
+            <li>
+                <a 
+                  href="{{ url('/kategori/'.$kat->id) }}"
+                  class="hashtag-link {{ isset($kategori) && $kategori->id == $kat->id ? 'active' : '' }}">#
+                  {{ $kat->nama_kategori }}
+                </a>
+            </li>
+        @endforeach
     </ul>
 </nav>
 
@@ -247,13 +239,22 @@ body {
             <div class="col-md-4 mb-4">
                 <h5 class="footer-judul mb-3">Kategori</h5>
                 <ul class="list-unstyled footer-link fw-semibold">
-                    <li><a href="#">Berita Lokal</a></li>
-                    <li><a href="#">Berita Nasional</a></li>
-                    <li><a href="#">E-Koran</a></li>
-                    <li><a href="#">Kolom Opini</a></li>
-                    <li><a href="#">Kuliner</a></li>
-                    <li><a href="#">Olahraga</a></li>
-                </ul>
+                     <li>
+            <a 
+              href="{{ url('/beritanav') }}"
+              class="{{ request()->is('beritanav') ? 'active' : '' }}">
+              Indeks
+            </a>
+        </li>
+        @foreach ($kategoris->take(5) as $kat)
+            <li>
+                <a 
+                  href="{{ url('/kategori/'.$kat->id) }}"
+                  class="{{ isset($kategori) && $kategori->id == $kat->id ? 'active' : '' }}">
+                  {{ $kat->nama_kategori }}
+                </a>
+            </li>
+        @endforeach
             </div>
             <!-- KOLOM LAYANAN -->
             <div class="col-md-4 mb-4">

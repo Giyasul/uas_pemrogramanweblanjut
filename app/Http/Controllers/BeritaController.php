@@ -1,35 +1,98 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use App\Models\Berita;
+use App\Models\Kategori;
 use Illuminate\Http\Request;
 
 class BeritaController extends Controller
 {
-    // tampilkan semua berita
+    /* =========================
+       HOME
+    ========================== */
     public function index()
+{
+    $beritas = Berita::latest()->skip(9)->take(5)->get();
+
+    $carouselBerita = Berita::latest()->skip(10)->take(5)->get();
+
+    $beritaTerbaru = Berita::latest()->take(5)->get();
+
+    $ArtikelPilihan = Berita::latest()->skip(12)->take(4)->get();
+
+    $beritaFeed = Berita::with('kategori')
+        ->latest()
+        ->skip(5)
+        ->take(1)
+        ->get();
+
+    return view('welcome', compact(
+        'beritas',
+        'carouselBerita',
+        'beritaTerbaru',
+        'ArtikelPilihan',
+        'beritaFeed'
+    ));
+}
+
+    /* =========================
+       DETAIL BERITA
+    ========================== */
+    public function show($id)
     {
-       $beritas = Berita::with('kategori')
-           ->latest() 
+        $berita = Berita::with('kategori')->findOrFail($id);
+
+        $beritaTerbaru = Berita::where('id', '!=', $id)
+            ->latest()
             ->take(5)
             ->get();
 
-        return view('welcome', compact('beritas'));
+        $ArtikelPilihan = Berita::where('id', '!=', $id)
+            ->latest()
+            ->skip(12)
+            ->take(4)
+            ->get();
+
+        return view('berita', compact(
+            'berita',
+            'beritaTerbaru',
+            'ArtikelPilihan'
+        ));
     }
 
-    // detail berita
-    public function show($id)
+    // ===============================
+    // INDEKS SEMUA BERITA
+    // ===============================
+    public function beritanav()
     {
-    $berita = Berita::with('kategori')->findOrFail($id);
+        $beritas = Berita::with('kategori')
+            ->latest()
+            ->paginate(11);
 
-    // 5 berita terakhir (kecuali yang sedang dibuka)
-    $beritaTerbaru = Berita::where('id', '!=', $id)
-        ->latest() // berdasarkan created_at
-        ->take(5)
-        ->get();
+        $kategoris = Kategori::all();
 
-    return view('berita', compact('berita', 'beritaTerbaru'));
+        return view('beritanav', compact('beritas', 'kategoris'));
     }
 
-}
+    // ===============================
+    // BERITA PER KATEGORI
+    // ===============================
+    public function kategori($id)
+    {
+        $kategori = Kategori::findOrFail($id);
 
+        $beritas = Berita::with('kategori')
+            ->where('kategori_id', $kategori->id)
+            ->latest()
+            ->paginate(10);
+
+        $kategoris = Kategori::all(); 
+
+        return view('beritanav', compact(
+            'beritas',
+            'kategori',
+            'kategoris'
+        ));
+    }
+}

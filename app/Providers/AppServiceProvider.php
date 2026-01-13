@@ -3,8 +3,9 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Nette\Utils\Paginator;  
 use Carbon\Carbon;    
+use Illuminate\Support\Facades\View;
+use App\Models\Kategori;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -21,7 +22,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //Paginator::bootstrap();
         Carbon::setLocale('id');
+        View::composer('*', function ($view) {
+        $view->with('kategoris', Kategori::all());
+    });
     }
 }
