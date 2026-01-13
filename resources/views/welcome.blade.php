@@ -306,10 +306,11 @@
 
 <div class="carousel-overlay">
 <span class="carousel-badge">Berita Seru</span>
-<a href="{{ url('/berita/'.$feed->id) }}"
-           class="news-feed-title">
-            {{ $feed->judul }}
-        </a>    
+<h4 class="fw-bold mt-2">
+    <a href="{{ url('/berita/'.$item->id) }}" class="news-feed-title">
+        {{ Str::limit($item->judul, 90) }}
+    </a>
+</h4>    
 </div>
 
 </div>
