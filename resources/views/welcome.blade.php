@@ -54,6 +54,12 @@
     font-weight:700;
 }
 
+/* indicator bulat */
+.carousel-indicators [data-bs-target]{
+    width:2px;
+    height:2px;
+}
+
 /* ================= SIDEBAR ================= */
 .sidebar-img{
     width:75px;
