@@ -13,7 +13,7 @@ class BeritaController extends Controller
     ========================== */
     public function index()
 {
-    $beritas = Berita::latest()->skip(12)->take(5)->get();
+    $beritas = Berita::latest()->skip(6)->take(5)->get();
 
     $carouselBerita = Berita::latest()->skip(10)->take(5)->get();
 
