@@ -407,7 +407,7 @@
 <div class="col-lg-4">
 
 <a href="https://universitasbumigora.ac.id/" target="_blank">
-    <img src="{{ asset('images/bumigora.heic') }}"
+    <img src="{{ asset('images/bumigora.jpg') }}"
          style="width:350px; height:auto;">
 </a>
 <hr>
