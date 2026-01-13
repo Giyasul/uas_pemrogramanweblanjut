@@ -17,7 +17,7 @@ class BeritaController extends Controller
 
     $carouselBerita = Berita::latest()->skip(10)->take(5)->get();
 
-    $beritaTerbaru = Berita::latest()->take(5)->get();
+    $beritaTerbaru = Berita::latest()->skip(8)->take(5)->get();
 
     $ArtikelPilihan = Berita::latest()->skip(12)->take(4)->get();
 
@@ -45,6 +45,7 @@ class BeritaController extends Controller
 
         $beritaTerbaru = Berita::where('id', '!=', $id)
             ->latest()
+            ->skip(13)
             ->take(5)
             ->get();
 
