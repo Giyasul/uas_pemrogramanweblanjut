@@ -349,7 +349,7 @@
         </div>
 
         <a href="{{ url('/berita/'.$feed->id) }}"
-           class="news-feed-title">
+           class="news-list-title">
             {{ $feed->judul }}
         </a>
 
