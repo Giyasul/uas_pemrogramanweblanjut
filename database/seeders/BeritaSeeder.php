@@ -18,7 +18,7 @@ Di bawah arahan pelatih saat ini, Barcelona menampilkan gaya permainan khas tiki
 Sejumlah pemain muda seperti hasil akademi La Masia tampil menonjol dan menjadi tulang punggung tim. Kehadiran mereka tidak hanya memberikan energi baru, tetapi juga menjaga identitas klub yang selama ini dikenal sebagai pencetak pemain kelas dunia. Manajemen klub pun terus berupaya memberi ruang bagi talenta muda untuk berkembang di level tertinggi.
 Meski demikian, Barcelona masih menghadapi tantangan, terutama dari sisi finansial dan konsistensi performa. Persaingan ketat di La Liga dengan klub-klub besar lainnya menuntut Barcelona untuk terus berbenah dan menjaga stabilitas tim sepanjang musim. Setiap laga menjadi ujian penting dalam upaya kembali meraih gelar juara.
 Ke depan, Barcelona menargetkan prestasi yang lebih tinggi dengan tetap berpegang pada filosofi permainan menyerang dan pengembangan pemain muda. Dengan fondasi yang mulai kuat dan dukungan penuh dari seluruh elemen klub, Barcelona optimistis dapat kembali menjadi kekuatan dominan di sepak bola Eropa dan dunia.',
-                'gambar' => 'image/kolom 1.jpeg',
+                'gambar' => 'image/kolom opini 1.jpeg',
                 'tanggal' => now(),
             ],
             [
