@@ -21,6 +21,33 @@ Ke depan, Barcelona menargetkan prestasi yang lebih tinggi dengan tetap berpegan
                 'gambar' => 'image/kolom opini 1.jpeg',
                 'tanggal' => now(),
             ],
+             [
+                'kategori_id' => 6,
+                'judul' => 'Para Artis Muda yang Membawa Angin Segar bagi dunia Sepak Bola' ,
+                'isi' => 'Para artis muda sepak bola terus bermunculan dan menjadi sorotan utama dalam beberapa musim terakhir. Kehadiran mereka tidak hanya menghadirkan permainan yang atraktif, tetapi juga memberi harapan baru bagi klub dan tim nasional masing-masing. Dengan usia yang relatif muda, para pemain ini sudah menunjukkan kematangan bermain yang luar biasa di level tertinggi.
+Kecepatan, kreativitas, dan keberanian menjadi ciri khas yang melekat pada generasi pemain muda saat ini. Mereka tampil tanpa rasa takut menghadapi lawan berpengalaman, bahkan kerap menjadi penentu kemenangan dalam pertandingan penting. Gaya bermain modern yang mengandalkan teknik tinggi dan mobilitas membuat sepak bola semakin menarik untuk disaksikan.
+Beberapa nama berhasil mencuri perhatian publik berkat konsistensi dan kontribusi besar di klubnya. Gol-gol penting, assist cerdas, hingga kemampuan membaca permainan menjadikan mereka aset berharga. Tidak sedikit dari mereka yang dipercaya mengenakan ban kapten atau menjadi tumpuan utama meski usianya masih sangat muda.
+Dampak kehadiran artis muda juga terasa dalam perkembangan strategi permainan. Pelatih kini lebih berani memberikan menit bermain kepada pemain belia karena kualitas yang mereka miliki. Hal ini turut mendorong regenerasi yang sehat dalam sepak bola, sekaligus mematahkan anggapan bahwa pengalaman usia selalu menjadi faktor utama kesuksesan.
+Di luar lapangan, popularitas para pemain muda ini turut meningkatkan daya tarik sepak bola secara global. Media sosial menjadi sarana bagi mereka untuk terhubung langsung dengan penggemar, menciptakan kedekatan emosional yang kuat. Citra positif dan profesionalisme yang ditunjukkan turut menginspirasi generasi muda untuk menekuni dunia sepak bola.
+Dengan pembinaan yang tepat dan mental yang terjaga, para artis muda ini diyakini akan menjadi ikon sepak bola masa depan. Mereka bukan sekadar bintang sesaat, melainkan fondasi penting bagi perkembangan olahraga ini. Dunia sepak bola pun menatap masa depan dengan optimisme berkat hadirnya talenta-talenta muda yang membawa angin segar.
+',
+                'gambar' => 'image/kolom opini 2.jpeg',
+                'tanggal' => now()->subDay(1),
+            ],
+             [
+                'kategori_id' => 6,
+                'judul' => 'Pergi Menjelajah Keindahan Alam Indonesia Bersama Teman-Teman: Pesona Bukit Gedok Sembalun, NTB' ,
+                'isi' => 'Menjelajah keindahan alam Indonesia bersama teman-teman menjadi pengalaman berharga yang penuh kesan. Salah satu destinasi yang kini semakin menarik perhatian wisatawan adalah Bukit Gedok yang terletak di kawasan Sembalun, Lombok, Nusa Tenggara Barat. Keindahan alam yang masih asri menjadikan bukit ini pilihan tepat bagi pencinta petualangan dan ketenangan alam.
+Bukit Gedok menawarkan panorama alam yang memukau dengan hamparan perbukitan hijau serta latar megah Gunung Rinjani. Udara sejuk khas pegunungan menyambut setiap pengunjung yang datang, menciptakan suasana nyaman dan menenangkan. Pemandangan ini menjadi daya tarik utama bagi wisatawan lokal maupun luar daerah.
+Perjalanan menuju Bukit Gedok menjadi bagian dari pengalaman seru bersama teman-teman. Akses jalan yang menantang namun aman menambah sensasi petualangan, terutama bagi para pencinta alam dan fotografi. Setiap sudut perjalanan menyuguhkan pemandangan sawah, perkampungan warga, serta alam Sembalun yang memanjakan mata.
+Sesampainya di puncak Bukit Gedok, rasa lelah langsung terbayar lunas. Dari ketinggian, pengunjung dapat menikmati panorama alam yang luas dan menawan, terutama saat pagi dan sore hari. Momen matahari terbit dan terbenam menjadi waktu favorit untuk mengabadikan keindahan alam bersama sahabat.
+Kebersamaan dengan teman-teman semakin terasa hangat saat menikmati suasana alam yang tenang. Bukit Gedok menjadi tempat ideal untuk bersantai, berbincang, hingga menikmati bekal sederhana sambil ditemani angin sepoi-sepoi. Aktivitas ini mempererat kebersamaan sekaligus menjadi pelepas penat dari rutinitas harian.
+Selain keindahan alamnya, keramahan masyarakat sekitar juga menjadi nilai tambah. Warga Sembalun dikenal ramah dan terbuka terhadap wisatawan, sehingga perjalanan terasa lebih aman dan menyenangkan. Hal ini turut mendukung Bukit Gedok sebagai destinasi wisata alam yang berkelanjutan.
+Dengan segala pesonanya, Bukit Gedok Sembalun layak menjadi tujuan wisata bagi siapa saja yang ingin menjelajah keindahan alam Indonesia bersama teman-teman. Keasrian alam, suasana sejuk, dan kebersamaan yang tercipta menjadikan perjalanan ini sebagai kenangan tak terlupakan. Bukit Gedok bukan sekadar destinasi, melainkan tempat untuk merasakan kedekatan dengan alam dan sahabat.
+',
+                'gambar' => 'image/kolom opini 3.jpeg',
+                'tanggal' => now()->subDay(2),
+            ],
             [
                 'kategori_id' => 1,
                 'judul' => 'Kenapa Sih Sepatu SMA Harus Hitam? Emang Gak Boleh Gaya Dikit? ' ,
