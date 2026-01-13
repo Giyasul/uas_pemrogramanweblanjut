@@ -54,6 +54,12 @@
     font-weight:700;
 }
 
+/* indicator bulat */
+.carousel-indicators [data-bs-target]{
+    width:10px;
+    height:10px;
+}
+
 /* ================= SIDEBAR ================= */
 .sidebar-img{
     width:75px;
@@ -279,7 +285,7 @@
      data-bs-ride="carousel">
 
 {{-- indicators --}}
-<div>
+<div class="carousel-indicators">
 @foreach($carouselBerita as $i=>$c)
 <button type="button"
         data-bs-target="#carouselExampleIndicators"
