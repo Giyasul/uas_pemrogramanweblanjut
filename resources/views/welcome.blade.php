@@ -185,6 +185,18 @@
     color:#ffb703;
 }
 
+.news-feeds-title{
+    font-size:22px;
+    font-weight:700;
+    line-height:1.3;
+    color:#000;
+    text-decoration:none;
+    transition:.25s;
+}
+.news-feeds-title:hover{
+    color:#0b4fb3;
+}
+
 .news-feed-meta{
     font-size:13px;
     color:#6b7280;
@@ -349,7 +361,7 @@
         </div>
 
         <a href="{{ url('/berita/'.$feed->id) }}"
-           class="news-list-title">
+           class="news-feeds-title">
             {{ $feed->judul }}
         </a>
 
@@ -370,7 +382,7 @@
 
 </div>
 
-{{-- ===== LIST BAWAH (3 BERITA) ===== --}}
+{{-- ===== LIST BAWAH (4 BERITA) ===== --}}
 <div class="news-list">
 @foreach($ArtikelPilihan as $item)
 <div class="news-list-item">
