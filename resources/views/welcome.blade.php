@@ -84,7 +84,7 @@
     border-radius:10px;
     transition:.35s;
 }
-.pilihan-img:hover{transform:scale(1.12);}
+.pilihan-img:hover{transform:scale(1.1);}
 
 /* ================= POPULER ================= */
 .populer-box{
