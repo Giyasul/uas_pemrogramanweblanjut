@@ -56,8 +56,8 @@
 
 /* indicator bulat */
 .carousel-indicators [data-bs-target]{
-    width:10px;
-    height:10px;
+    width:2px;
+    height:2px;
 }
 
 /* ================= SIDEBAR ================= */
