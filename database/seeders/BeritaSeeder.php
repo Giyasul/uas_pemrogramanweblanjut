@@ -363,6 +363,203 @@ Masyarakat juga perlu mengubah cara memandang pendidikan dan kesuksesan. Gelar s
                 'gambar' => 'image/berita 5.jfif',
                 'tanggal' => now(),
             ],
+            [
+                'kategori_id' => 7,
+                'judul' => 'PELATIHAN PENYAJIAN & HIGENIENITAS KULINER DI DESA WISATA KEBON AYU' ,
+                'isi' => 'Desa Wisata Kebon Ayu merupakan salah satu desa wisata unggulan di Lombok Barat yang mengandalkan kuliner tradisional sebagai daya tarik utama bagi wisatawan. Namun, di era pariwisata modern, rasa lezat saja tidak cukup. Cara penyajian dan standar kebersihan (higienitas) menjadi faktor penentu apakah wisatawan akan kembali atau justru merasa kecewa.
+Pelatihan penyajian dan higienitas kuliner menjadi penting karena menyentuh langsung kepercayaan wisatawan. Wisatawan saat ini semakin sadar akan kesehatan, kebersihan makanan, dan keamanan pangan. Jika desa wisata ingin bersaing secara berkelanjutan, maka kuliner lokal harus disajikan secara aman, bersih, dan menarik secara visual, tanpa meninggalkan nilai tradisionalnya.
+Opini saya, pelatihan penyajian dan higienitas kuliner di Desa Wisata Kebon Ayu adalah langkah yang sangat tepat dan visioner. Pelatihan ini bukan sekadar mengajarkan cara menyajikan makanan, tetapi juga membangun mental profesionalisme pelaku UMKM kuliner desa.
+Kuliner adalah wajah pertama yang dikenali wisatawan dari sebuah daerah. Jika wajah itu bersih, rapi, dan meyakinkan, maka citra daerah akan ikut terangkat. Pelatihan seperti ini seharusnya tidak berhenti satu kali, tetapi dilakukan secara berkelanjutan dengan pendampingan langsung agar hasilnya benar-benar terasa.
+Lebih jauh, upaya ini menunjukkan bahwa pembangunan pariwisata Lombok Barat tidak hanya berfokus pada infrastruktur fisik, tetapi juga peningkatan kualitas manusia sebagai pelaku utama pariwisata. Inilah kunci agar desa wisata seperti Kebon Ayu tidak hanya ramai sesaat, tetapi mampu bertahan dan berkembang dalam jangka panjang.
+',
+                'gambar' => 'image/kuliner 1.jpeg',
+                'tanggal' => now(),
+            ],
+            [
+                'kategori_id' => 7,
+                'judul' => 'MEMBUKA KORIDOR DIPLOMASI LEWAT KULINER NTB' ,
+                'isi' => 'Selama ini, diplomasi sering dipahami sebatas hubungan politik, ekonomi, atau kerja sama antarnegara. Namun, di era global saat ini, kuliner telah menjadi salah satu bentuk diplomasi budaya paling efektif. NTB, dengan kekayaan kuliner seperti Ayam Taliwang, Plecing Kangkung, Sate Rembiga, hingga Jaje Tujak, memiliki potensi besar untuk membuka koridor diplomasi nonformal melalui rasa.
+Pertanyaannya, mengapa harus kuliner?
+Karena makanan adalah pengalaman universal. Tanpa perlu bahasa yang sama, orang dari berbagai negara bisa memahami budaya lewat cita rasa. Ketika kuliner NTB diperkenalkan dalam forum internasional, festival budaya, atau kunjungan diplomatik, sesungguhnya NTB sedang “berbicara” kepada dunia.
+Opini saya, membuka koridor diplomasi lewat kuliner NTB adalah langkah strategis yang sangat relevan dengan kondisi global saat ini. Diplomasi tidak selalu harus dilakukan di ruang konferensi; ia bisa hadir di meja makan, dalam satu suapan yang meninggalkan kesan mendalam.
+Namun, diplomasi kuliner tidak boleh dilakukan secara instan. Diperlukan kurasi menu, pelatihan standar internasional, narasi budaya yang kuat, serta keberpihakan pada pelaku lokal. Kuliner NTB harus tampil bukan sekadar lezat, tetapi juga membawa cerita tentang sejarah, masyarakat, dan nilai budaya daerah.
+Jika dijalankan dengan konsisten, kuliner NTB tidak hanya akan dikenal, tetapi juga dihormati sebagai bagian dari identitas budaya Indonesia di mata dunia. Di sinilah rasa menjadi bahasa, dan makanan menjadi jembatan diplomasi.
+',
+                'gambar' => 'image/kuliner 2.jpeg',
+                'tanggal' => now()->subDay(1),
+            ],
+               [
+                'kategori_id' => 7,
+                'judul' => 'FESTIVAL KULINER NUSANTARA "TJAP LEGENDE" SINGGAH DI LOMBOK ' ,
+                'isi' => 'Kehadiran Festival Kuliner Nusantara “Tjap Legende” di Lombok bukan sekadar agenda hiburan atau wisata kuliner biasa. Festival ini membawa pesan yang lebih besar: perayaan keberagaman kuliner Indonesia dalam satu ruang budaya. Ketika sebuah festival nasional singgah di daerah, itu berarti daerah tersebut diakui memiliki kapasitas, minat pasar, dan potensi ekonomi yang menjanjikan.
+Pertanyaannya kemudian, mengapa Lombok dipilih sebagai salah satu titik singgah? Jawabannya terletak pada posisi Lombok sebagai destinasi wisata yang terus berkembang dan memiliki masyarakat yang terbuka terhadap keragaman budaya, termasuk cita rasa kuliner dari berbagai daerah di Nusantara.
+Opini  saya, Festival Kuliner Nusantara “Tjap Legende” yang singgah di Lombok adalah momentum penting yang tidak boleh dilewatkan begitu saja. Festival ini seharusnya tidak hanya dipandang sebagai acara seremonial, tetapi sebagai pintu masuk penguatan ekosistem kuliner daerah.
+Pemerintah daerah dan penyelenggara perlu memastikan bahwa pelaku kuliner lokal tidak hanya menjadi penonton, melainkan aktor utama. Selain itu, perlu ada program tindak lanjut seperti pendampingan UMKM, promosi berkelanjutan, dan integrasi dengan agenda pariwisata daerah.
+Jika dimanfaatkan dengan tepat, festival ini dapat menjadi awal dari penguatan posisi Lombok sebagai salah satu pusat wisata kuliner di Indonesia, bukan hanya sebagai destinasi alam semata.
+',
+                'gambar' => 'image/kuliner 3.jpeg',
+                'tanggal' => now()->subDay(2),
+            ],
+            [
+                'kategori_id' => 7,
+                'judul' => 'UPAYA PENINGKATAN KULINER DI DESTINASI WISATA' ,
+                'isi' => 'Dalam dunia pariwisata modern, kuliner tidak lagi sekadar pelengkap perjalanan. Ia telah menjadi bagian utama dari pengalaman wisata. Banyak wisatawan bahkan menjadikan makanan sebagai alasan utama untuk mengunjungi suatu destinasi. Oleh karena itu, upaya peningkatan kuliner di destinasi wisata menjadi kebutuhan yang tidak bisa ditawar.
+Pertanyaannya, mengapa destinasi wisata perlu serius mengelola kulinernya?
+Jawabannya sederhana: pengalaman makan yang buruk bisa menghapus kesan positif terhadap keindahan alam dan keramahan masyarakat setempat. Sebaliknya, kuliner yang berkualitas dapat memperkuat citra destinasi dan membuat wisatawan ingin kembali.
+Opini saya, upaya peningkatan kuliner di destinasi wisata harus menjadi bagian integral dari strategi pengembangan pariwisata daerah. Peningkatan ini tidak cukup hanya pada rasa, tetapi juga mencakup kebersihan, pelayanan, kemasan, cerita budaya, dan keberlanjutan lingkungan.
+Pemerintah daerah, pengelola destinasi, dan pelaku UMKM perlu berjalan bersama. Pelatihan rutin, pendampingan usaha, serta promosi yang konsisten akan membuat kuliner lokal naik kelas tanpa kehilangan jati dirinya.
+Jika kuliner dikelola dengan baik, destinasi wisata tidak hanya akan dikenal karena keindahan alamnya, tetapi juga karena pengalaman rasa yang tak terlupakan.
+',
+                'gambar' => 'image/kuliner 4.jpeg',
+                'tanggal' => now()->subDay(4),
+            ],
+            [
+                'kategori_id' => 7,
+                'judul' => 'REVITALISASI KULINER TRADISIONAL LOMBOK SEBAGAI DAYA TARIK WISATA BERKELANJUTAN' ,
+                'isi' => 'Kuliner tradisional Lombok seperti ayam taliwang, plecing kangkung, sate rembiga, bebalung, dan berbagai jajanan khas desa sejatinya bukan sekadar makanan. Ia adalah identitas budaya yang diwariskan lintas generasi. Namun di tengah arus modernisasi, banyak kuliner lokal mulai tersisih oleh makanan cepat saji dan tren kuliner instan.
+
+Mengapa kuliner tradisional perlu direvitalisasi, bukan sekadar dipertahankan?
+Apa dampaknya bagi pariwisata dan ekonomi masyarakat lokal?
+Revitalisasi diperlukan agar kuliner tradisional tidak hanya “bertahan”, tetapi mampu bersaing, berkembang, dan relevan dengan selera wisatawan masa kini.
+
+ Apa Penyebab Kuliner Tradisional Mulai Tertinggal?
+Beberapa faktor utama yang membuat kuliner lokal kurang berkembang antara lain:
+Penyajian yang Kurang Menarik
+Rasa mungkin otentik, tetapi tampilan dan kemasan sering belum mengikuti standar wisata modern.
+Kurangnya Inovasi Tanpa Menghilangkan Ciri Khas
+Sebagian pelaku usaha takut berinovasi karena khawatir “kehilangan keaslian”, padahal inovasi bisa dilakukan tanpa mengubah cita rasa utama.
+ Minimnya Regenerasi
+Anak muda lebih tertarik pada usaha modern, sehingga kuliner tradisional kekurangan penerus.
+Promosi yang Terbatas
+Banyak kuliner lokal hanya dikenal di lingkup desa, belum dipromosikan secara luas sebagai daya tarik wisata.
+Apa Manfaat Revitalisasi Kuliner Tradisional?
+Jika dilakukan dengan serius dan terarah, revitalisasi kuliner membawa dampak besar:
+Meningkatkan Daya Tarik Wisata
+Wisatawan tidak hanya datang untuk melihat alam, tetapi juga untuk merasakan pengalaman rasa lokal.
+Menggerakkan Ekonomi Masyarakat
+Pelaku kuliner desa mendapat peluang usaha berkelanjutan, bukan musiman.
+Melestarikan Budaya Lokal
+Resep, teknik memasak, dan filosofi makanan tetap hidup dan dikenal generasi muda.
+Mendorong UMKM Naik Kelas
+Dengan standar kebersihan, penyajian, dan branding yang lebih baik, UMKM kuliner bisa masuk pasar yang lebih luas.
+ Risiko Jika Revitalisasi Tidak Dilakukan dengan Tepat
+Namun revitalisasi juga memiliki tantangan:
+Hilangnya Keaslian Rasa
+Jika terlalu mengikuti tren, cita rasa khas bisa berubah.
+Komersialisasi Berlebihan
+Kuliner bisa kehilangan nilai budaya jika hanya dikejar keuntungan.
+Ketimpangan Pelaku Usaha
+Pelaku kecil bisa kalah bersaing jika tidak mendapat pendampingan.
+Karena itu, revitalisasi harus dilakukan dengan pendampingan, pelatihan, dan regulasi yang adil.
+Opini saya, revitalisasi kuliner tradisional Lombok adalah kunci pariwisata yang berkelanjutan, bukan sekadar pelengkap destinasi wisata. Alam Lombok memang indah, tetapi tanpa kuliner khas yang kuat, pengalaman wisata menjadi kurang lengkap.
+Kuliner lokal harus ditempatkan sebagai aset budaya dan ekonomi, bukan sekadar produk jualan. Pemerintah, pelaku wisata, dan masyarakat perlu berjalan bersama: menjaga rasa, memperbaiki penyajian, dan memperluas promosi.
+Jika kuliner tradisional Lombok mampu direvitalisasi dengan baik, maka yang terbangun bukan hanya bisnis, tetapi kebanggaan daerah dan identitas lokal.
+',
+                'gambar' => 'image/kuliner 5.jpeg',
+                'tanggal' => now()->subDay(3),
+            ],
+            [
+                'kategori_id' => 2,
+                'judul' => 'COE LOMBOK BARAT 2026 DIHARAPKAN DONGKRAK OKUPANSI HOTEL DI SENGGIGI' ,
+                'isi' => 'Pemerintah Kabupaten Lombok Barat resmi meluncurkan Calendar of Events (CoE) 2026 yang berisi 32 agenda pariwisata sepanjang tahun di Senggigi dan sekitarnya  mulai dari event budaya, festival wisata, hingga kegiatan ekonomi kreatif. Launching ini disambut positif oleh berbagai pelaku pariwisata dan masyarakat setempat. 
+Dinas Pertanian Lombok Barat
+Melihat fenomena ini, muncul pertanyaan penting: kenapa penyusunan dan peluncuran CoE demikian penting?
+Apa makna strategis dari sekumpulan event wisata yang dirancang untuk sepanjang tahun? Bagaimana kaitannya dengan pertumbuhan ekonomi, identitas budaya, serta masa depan masyarakat Lombok Barat?
+Mengapa CoE 2026 Penting?
+Pertanyaan ini adalah kunci pertama dalam memahami fenomena pariwisata modern. Event pariwisata bukan sekadar hiburan atau keramaian sesaat — lebih dari itu, event berfungsi sebagai:
+Magnet kunjungan wisatawan yang memperluas jangkauan promosi lokal
+ Alat pemasaran budaya yang memperkenalkan kekayaan lokal
+Penggerak ekonomi berbasis sektor jasa, UMKM, dan SDM lokal
+Dalam konteks Lombok Barat, penyelenggaraan CoE 2026 hadir di tengah upaya panjang membangkitkan kembali pariwisata pascapandemi. 32 event yang dirancang menandakan bahwa pariwisata bukan proyek satu kali, tetapi strategi tahunan yang harus terus dipupuk.
+Kenapa Agenda Event Harus Tahunan dan Berkelanjutan?
+Jika hanya ada satu event besar per tahun, efek ekonominya sering bersifat temporer. Namun dengan 32 event yang tersebar sepanjang 2026, ada beberapa keuntungan strategis:
+Okupansi hotel lebih stabil
+Tidak hanya naik saat liburan panjang, tetapi juga saat event-event kecil berlangsung.
+UMKM lokal terus bergerak
+Festival seni, kuliner, olahraga lokal, dan show budaya akan melibatkan pelaku ekonomi komunitas meningkatkan pemasukan mereka sepanjang tahun.
+ Pendidikan dan skill meningkat
+Acara pelatihan, workshop, dan kompetisi mampu meningkatkan kemampuan SDM pariwisata.
+',
+                'gambar' => 'image/lokal 1.jpeg',
+                'tanggal' => now()->subDay(4),
+            ],
+             [
+                'kategori_id' => 2,
+                'judul' => 'WNA CINA JADI TERSANGKA TAMBANG EMAS  ILEGAL DI LOMBOK BARAT' ,
+                'isi' => ' Kasus WNA asal Cina yang ditetapkan sebagai tersangka dalam kasus tambang emas ilegal di Sekotong, Lombok Barat bukan sekadar berita kriminal biasa. Ini menyentuh pada isu penegakan hukum terhadap pengelolaan sumber daya alam, identitas kedaulatan atas bumi dan laut Indonesia, dan perlindungan lingkungan hidup khususnya di daerah yang kaya potensi alam seperti Lombok Barat.
+Tambang ilegal bukan hanya soal satu orang atau satu kelompok. Ketika ada WNA yang melakukan aktivitas pertambangan tanpa izin, ini mencerminkan celah dalam sistem pengawasan dan regulasi yang seharusnya mampu melindungi kawasan sumber daya nasional dari eksploitasi tanpa kontrol.
+Menurut saya, penetapan WNA Cina sebagai tersangka kasus tambang ilegal bukan hanya langkah hukum tetapi simbol bahwa Indonesia serius menjaga kedaulatan alamnya.
+Dalam beberapa tahun terakhir, isu pertambangan ilegal menjadi benalu yang menggerogoti hutan, sungai, dan tanah subur di banyak daerah. Ketika sebuah kasus menyeret pihak asing, itu membuka mata publik bahwa sumber daya alam tidak boleh menjadi komoditas yang dimanfaatkan tanpa aturan.
+Lebih jauh, pemerintah perlu menggunakan momentum ini untuk memperbaiki sistem pengawasan sumber daya alam: melalui teknologi pemantauan, pelibatan masyarakat dalam pengawasan, dan penegakan hukum yang konsisten.
+Masyarakat juga perlu didorong untuk memahami bahwa sumber daya alam adalah aset kolektif. Ketika ini dilindungi bersama, bukan hanya lingkungan yang selamat — tetapi masa depan generasi juga menjadi lebih baik.
+',
+                'gambar' => 'image/lokal 2.jpeg',
+                'tanggal' => now()->subDay(3),
+            ],
+            [
+                'kategori_id' => 2,
+                'judul' => 'HARGA EMAS STABIL, GERAI KDMP LOMBOK TENGAH, UU AIR MINUM HINGGA SAAT KAPAL DUNIA TENGAH SINGGAH DI NTB' ,
+                'isi' => ' Harga Emas Stabil, Gerai KDMP Lombok Tengah Jadi Penyangga Ekonomi Masyarakat
+Stabilnya harga emas di tengah dinamika ekonomi nasional menjadi isu yang sangat relevan bagi masyarakat Lombok Tengah. Emas tidak hanya dipandang sebagai perhiasan, tetapi juga sebagai instrumen penyimpanan nilai dan pengaman ekonomi keluarga, terutama bagi masyarakat menengah ke bawah.
+Kehadiran Gerai KDMP (Koperasi Daerah Milik Pemerintah) di Lombok Tengah menjadi sorotan karena berperan sebagai penyangga distribusi dan akses masyarakat terhadap emas dengan harga yang relatif stabil. Dalam situasi ekonomi yang sering kali fluktuatif, stabilitas harga emas memberi rasa aman, baik bagi pedagang kecil, petani, maupun pelaku UMKM.
+Isu ini penting karena menyentuh langsung ketahanan ekonomi lokal, bukan hanya angka makro ekonomi yang jauh dari kehidupan masyarakat sehari-hari.
+Opini saya, stabilnya harga emas dan keberadaan Gerai KDMP Lombok Tengah menunjukkan bahwa peran negara dan pemerintah daerah masih sangat relevan dalam melindungi ekonomi rakyat kecil. Di saat pasar sering kali tidak berpihak pada masyarakat bawah, koperasi daerah menjadi benteng yang menjaga keseimbangan.
+Namun, KDMP tidak boleh hanya menjadi tempat transaksi, melainkan juga pusat edukasi keuangan. Masyarakat perlu didampingi agar memahami kapan membeli, menyimpan, dan menjual emas secara bijak.
+Jika dikelola secara profesional, transparan, dan merata, KDMP bukan hanya menjaga stabilitas harga emas, tetapi juga membangun kemandirian ekonomi masyarakat Lombok Tengah secara berkelanjutan.
+',
+                'gambar' => 'image/lokal 3.jpeg',
+                'tanggal' => now()->subDay(2),
+            ],
+            [
+                'kategori_id' => 2,
+                'judul' => 'MINIM ANGGARAN, LOMBOK UTARA TERANCAM ABSEN DI PORPROV NTB 2026' ,
+                'isi' => ' Ancaman absennya Kabupaten Lombok Utara dalam ajang Pekan Olahraga Provinsi (Porprov) NTB 2026 bukanlah persoalan sepele. Porprov bukan hanya kompetisi olahraga, tetapi juga ruang pembinaan atlet daerah, simbol kehadiran daerah dalam pembangunan olahraga, serta ajang harga diri dan identitas regional.
+Jika Lombok Utara benar-benar tidak ikut karena keterbatasan anggaran, maka yang hilang bukan sekadar medali, melainkan kesempatan generasi muda untuk berkembang, tampil, dan diakui. Isu ini menyentuh langsung persoalan keadilan pembangunan daerah, terutama bagi kabupaten yang masih dalam tahap pemulihan dan penguatan ekonomi.
+Opini saya, alasan minim anggaran tidak seharusnya menjadi pembenar atas absennya Lombok Utara di Porprov NTB 2026. Olahraga bukan beban anggaran, melainkan investasi sosial jangka panjang. Pemerintah daerah perlu melihat Porprov sebagai sarana membangun sumber daya manusia, bukan sekadar pengeluaran.
+Solusi tidak harus selalu dari APBD. Kolaborasi dengan dunia usaha, optimalisasi KONI daerah, serta dukungan provinsi bisa menjadi jalan keluar. Yang terpenting adalah kemauan politik (political will) untuk memastikan Lombok Utara tetap hadir.
+Ketidakhadiran dalam Porprov bukan hanya kegagalan administratif, tetapi juga kegagalan dalam memberi harapan bagi atlet dan generasi muda.
+',
+                'gambar' => 'image/lokal 4.jpeg',
+                'tanggal' => now()->subDay(1),
+            ],
+            [
+                'kategori_id' => 2,
+                'judul' => 'ARUS PENUMPANG SELAMA NATAL DAN TAHUN BARU 2025-2026 DI PELABUHAN LEMBAR TERKENDALI.' ,
+                'isi' => ' Kondisi arus penumpang Natal dan Tahun Baru (Nataru) di Pelabuhan Lembar merupakan indikator penting dari siap tidaknya sistem transportasi laut menghadapi lonjakan perjalanan masyarakat di periode libur besar. Pelabuhan Lembar menjadi gerbang utama yang menghubungkan Lombok, Bali, dan pulau-pulau lain di Indonesia, sehingga kelancaran arus ini bukan sekadar soal pergerakan orang, tetapi juga ketahanan sistem transportasi publik dan konektivitas antarwilayah. 
+Libur akhir tahun selalu menjadi masa di mana masyarakat melakukan perjalanan jauh; pulang kampung, liburan, dan berkumpul bersama keluarga. Jika Pelabuhan Lembar mampu menata dan menyiapkan fasilitas dengan baik untuk ratusan ribu orang yang bergerak dalam waktu singkat, maka ini bukan hanya keberhasilan operasional, tetapi juga tanda integrasi fungsi publik, infrastruktur, dan kebijakan yang saling mendukung.
+Opini saya, kondisi arus penumpang yang tertib dan terkendali di Pelabuhan Lembar selama Nataru 2025-2026 menjadi bukti nyata bahwa sistem transportasi laut Indonesia semakin matang dalam manajemen layanan publiknya. Pelabuhan Lembar bukan sekadar tempat naik turun penumpang, tetapi nadi pergerakan masyarakat antarpulau yang sangat penting, terutama di wilayah kepulauan seperti NTB.
+Keberhasilan ini menunjukkan adanya sinergi eksternal yang kuat antara berbagai pihak  operator pelabuhan, pemerintah daerah, aparat keamanan, hingga pemangku kepentingan lain dalam rangka melayani kebutuhan masyarakat secara efektif. Ini bukan hanya soal angka penumpang, tetapi juga soal bagaimana pelayanan publik dapat memberikan pengalaman perjalanan yang lebih baik, aman, dan teratur bagi rakyat.
+Lebih jauh lagi, model koordinasi yang dilakukan di Lembar bisa menjadi referensi untuk pelabuhan-pelabuhan lain di Indonesia, terutama ketika menghadapi arus tinggi seperti momen libur nasional. Karena pelayanan publik yang baik adalah fondasi penting dalam pembangunan konektivitas nasional dan dapat mendorong pertumbuhan ekonomi yang merata.
+',
+                'gambar' => 'image/lokal 5.jpeg',
+                'tanggal' => now(),
+            ],
+            [
+                'kategori_id' => 4,
+                'judul' => 'CALENDER OF EVENTS 2026 SIAP DIGELAR PARIWISATA LOMBOK BARAT BANGKIT' ,
+                'isi' => ' Peluncuran Calendar of Event (CoE) 2026 Lombok Barat bukan sekadar daftar kegiatan pariwisata tahunan. Ia merupakan penanda arah kebangkitan sektor pariwisata daerah setelah berbagai tantangan global dan nasional dalam beberapa tahun terakhir. Ketika sebuah daerah berani menyusun agenda pariwisata jauh hari ke depan, itu menandakan adanya optimisme dan kesiapan.
+Pertanyaannya, mengapa Calendar of Event ini begitu penting bagi Lombok Barat?
+Karena pariwisata tidak bisa berjalan spontan. Ia membutuhkan perencanaan, kepastian waktu, dan konsistensi agar wisatawan, pelaku usaha, dan investor memiliki kepercayaan.
+Opini  saya, Calendar of Event 2026 adalah peluang emas bagi Lombok Barat untuk benar-benar bangkit dan naik kelas dalam pengelolaan pariwisata. Namun, kebangkitan ini tidak boleh berhenti pada penyusunan jadwal semata.
+Event harus memiliki cerita, tujuan, dan keberlanjutan. Setiap agenda perlu dikaitkan dengan promosi budaya lokal, pemberdayaan UMKM, dan pengalaman wisata yang berkualitas. Pemerintah daerah juga harus memastikan promosi dilakukan secara digital dan kolaboratif agar menjangkau pasar yang lebih luas.
+Jika dikelola dengan serius, Calendar of Event 2026 bukan hanya akan menghidupkan pariwisata Lombok Barat, tetapi juga memperkuat identitas daerah sebagai destinasi wisata yang terencana, kreatif, dan berkelanjutan.
+',
+                'gambar' => 'image/ekoran 1.jpeg',
+                'tanggal' => now(),
+            ],
+            [
+                'kategori_id' => 4,
+                'judul' => 'DAFTAR EVENT UTAMA DALAM COE LOMBOK BARAT 2026' ,
+                'isi' => ' Peluncuran Calendar of Event (CoE) 2026 Lombok Barat bukan sekadar daftar kegiatan pariwisata tahunan. Ia merupakan penanda arah kebangkitan sektor pariwisata daerah setelah berbagai tantangan global dan nasional dalam beberapa tahun terakhir. Ketika sebuah daerah berani menyusun agenda pariwisata jauh hari ke depan, itu menandakan adanya optimisme dan kesiapan.
+Pertanyaannya, mengapa Calendar of Event ini begitu penting bagi Lombok Barat?
+Karena pariwisata tidak bisa berjalan spontan. Ia membutuhkan perencanaan, kepastian waktu, dan konsistensi agar wisatawan, pelaku usaha, dan investor memiliki kepercayaan.
+Opini saya, Calendar of Event 2026 adalah peluang emas bagi Lombok Barat untuk benar-benar bangkit dan naik kelas dalam pengelolaan pariwisata. Namun, kebangkitan ini tidak boleh berhenti pada penyusunan jadwal semata.
+Event harus memiliki cerita, tujuan, dan keberlanjutan. Setiap agenda perlu dikaitkan dengan promosi budaya lokal, pemberdayaan UMKM, dan pengalaman wisata yang berkualitas. Pemerintah daerah juga harus memastikan promosi dilakukan secara digital dan kolaboratif agar menjangkau pasar yang lebih luas.
+Jika dikelola dengan serius, Calendar of Event 2026 bukan hanya akan menghidupkan pariwisata Lombok Barat, tetapi juga memperkuat identitas daerah sebagai destinasi wisata yang terencana, kreatif, dan berkelanjutan.
+',
+                'gambar' => 'image/ekoran 2.jpeg',
+                'tanggal' => now()->subDay(1),
+            ],
         ];
 
         foreach ($beritas as $berita) {
